@@ -33,14 +33,13 @@ jobs:
       contents: read        # check out the repo + read the saved analysis (no writes in review mode)
       pull-requests: write  # post the architecture-diff PR comment
       issues: write         # the /codeboarding issue_comment trigger + comment API
-      id-token: write       # mint a GitHub OIDC token for the free hosted tier (write is the only level for id-token)
+      id-token: write       # mint a GitHub OIDC token for CodeBoarding
       actions: read         # let a repeat review download the analysis an earlier run published, instead of re-deriving the whole PR
     steps:
       - uses: CodeBoarding/CodeBoarding-action@v1
         with:
-          # CodeBoarding's free hosted tier. No secret to add: the run authenticates
-          # with the GitHub OIDC token that `id-token: write` above grants.
-          llm: hosted
+          llm: license
+          license_key: ${{ secrets.CODEBOARDING_LICENSE_KEY }}
 
   sync:
     if: github.event_name == 'push'
@@ -54,6 +53,5 @@ jobs:
       - uses: CodeBoarding/CodeBoarding-action@v1
         with:
           mode: sync
-          # CodeBoarding's free hosted tier. No secret to add: the run authenticates
-          # with the GitHub OIDC token that `id-token: write` above grants.
-          llm: hosted
+          llm: license
+          license_key: ${{ secrets.CODEBOARDING_LICENSE_KEY }}
