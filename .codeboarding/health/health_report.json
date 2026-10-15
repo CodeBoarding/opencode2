@@ -1,0 +1,3001 @@
+{
+  "repository_name": ".codeboarding-target",
+  "timestamp": "2026-10-15T17:09:18.607466+00:00",
+  "overall_score": 0.9810532658471921,
+  "check_summaries": [
+    {
+      "check_name": "function_size",
+      "description": "Checks that functions/methods do not exceed line count thresholds",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "check_type": "standard",
+      "total_entities_checked": 20726,
+      "findings_count": 375,
+      "warning_count": 375,
+      "score": 0.9819067837498794,
+      "finding_groups": [
+        {
+          "severity": "warning",
+          "threshold": 150,
+          "description": "Functions exceeding 150.0 lines",
+          "entities": [
+            {
+              "entity_name": "packages.client.src.promise.generated.client.make",
+              "file_path": "packages/client/src/promise/generated/client.ts",
+              "line_start": 302,
+              "line_end": 2250,
+              "metric_value": 1948
+            },
+            {
+              "entity_name": "packages.tui.src.component.prompt.index.Prompt",
+              "file_path": "packages/tui/src/component/prompt/index.tsx",
+              "line_start": 185,
+              "line_end": 2011,
+              "metric_value": 1826
+            },
+            {
+              "entity_name": "packages.client.src.solid.data.createData",
+              "file_path": "packages/client/src/solid/data.ts",
+              "line_start": 231,
+              "line_end": 2014,
+              "metric_value": 1783
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.browser.chromium.createBrowserPage",
+              "file_path": "packages/gui-extensions/src/browser/chromium.ts",
+              "line_start": 124,
+              "line_end": 1746,
+              "metric_value": 1622
+            },
+            {
+              "entity_name": "packages.console.app.src.routes.legal.privacy-policy.index.PrivacyPolicy",
+              "file_path": "packages/console/app/src/routes/legal/privacy-policy/index.tsx",
+              "line_start": 10,
+              "line_end": 1515,
+              "metric_value": 1505
+            },
+            {
+              "entity_name": "packages.tui.src.mini.stream-v2.transport.createSessionTransport",
+              "file_path": "packages/tui/src/mini/stream-v2.transport.ts",
+              "line_start": 479,
+              "line_end": 1898,
+              "metric_value": 1419
+            },
+            {
+              "entity_name": "packages.tui.src.routes.session.index.Session",
+              "file_path": "packages/tui/src/routes/session/index.tsx",
+              "line_start": 145,
+              "line_end": 1549,
+              "metric_value": 1404
+            },
+            {
+              "entity_name": "packages.app.src.providers.connect.dialog.ProviderConnection",
+              "file_path": "packages/app/src/providers/connect/dialog.tsx",
+              "line_start": 406,
+              "line_end": 1617,
+              "metric_value": 1211
+            },
+            {
+              "entity_name": "packages.tui.src.mini.footer.prompt.createPromptState",
+              "file_path": "packages/tui/src/mini/footer.prompt.tsx",
+              "line_start": 346,
+              "line_end": 1555,
+              "metric_value": 1209
+            },
+            {
+              "entity_name": "packages.tui.src.routes.session.form.FormPrompt",
+              "file_path": "packages/tui/src/routes/session/form.tsx",
+              "line_start": 59,
+              "line_end": 1175,
+              "metric_value": 1116
+            },
+            {
+              "entity_name": "packages.core.src.git.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/git.ts",
+              "line_start": 192,
+              "line_end": 1289,
+              "metric_value": 1097
+            },
+            {
+              "entity_name": "packages.tui.src.app.App",
+              "file_path": "packages/tui/src/app.tsx",
+              "line_start": 459,
+              "line_end": 1442,
+              "metric_value": 983
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.browser.panel.SessionBrowserPane",
+              "file_path": "packages/gui-extensions/src/browser/panel.tsx",
+              "line_start": 67,
+              "line_end": 1035,
+              "metric_value": 968
+            },
+            {
+              "entity_name": "packages.session-ui.src.timeline.session-timeline-row.createSessionTimelineRowRenderer",
+              "file_path": "packages/session-ui/src/timeline/session-timeline-row.tsx",
+              "line_start": 61,
+              "line_end": 1028,
+              "metric_value": 967
+            },
+            {
+              "entity_name": "packages.tui.src.mini.stream-v2.subagent.createSubagentTracker",
+              "file_path": "packages/tui/src/mini/stream-v2.subagent.ts",
+              "line_start": 203,
+              "line_end": 1141,
+              "metric_value": 938
+            },
+            {
+              "entity_name": "packages.tui.src.mini.footer.view.RunFooterView",
+              "file_path": "packages/tui/src/mini/footer.view.tsx",
+              "line_start": 130,
+              "line_end": 1041,
+              "metric_value": 911
+            },
+            {
+              "entity_name": "packages.tui.src.mini.runtime.runInteractiveRuntime",
+              "file_path": "packages/tui/src/mini/runtime.ts",
+              "line_start": 193,
+              "line_end": 1092,
+              "metric_value": 899
+            },
+            {
+              "entity_name": "packages.tui.src.component.prompt.autocomplete.Autocomplete",
+              "file_path": "packages/tui/src/component/prompt/autocomplete.tsx",
+              "line_start": 59,
+              "line_end": 953,
+              "metric_value": 894
+            },
+            {
+              "entity_name": "packages.app.src.session.timeline.virtualizer.createTimelineVirtualizer",
+              "file_path": "packages/app/src/session/timeline/virtualizer.tsx",
+              "line_start": 93,
+              "line_end": 952,
+              "metric_value": 859
+            },
+            {
+              "entity_name": "packages.tui.src.feature-plugins.system.diff-viewer.DiffViewerContent",
+              "file_path": "packages/tui/src/feature-plugins/system/diff-viewer.tsx",
+              "line_start": 300,
+              "line_end": 1155,
+              "metric_value": 855
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.microsoft-office.spreadsheet.SpreadsheetGrid",
+              "file_path": "packages/gui-extensions/src/microsoft-office/spreadsheet.tsx",
+              "line_start": 258,
+              "line_end": 1076,
+              "metric_value": 818
+            },
+            {
+              "entity_name": "packages.console.app.src.routes.index.Home",
+              "file_path": "packages/console/app/src/routes/index.tsx",
+              "line_start": 29,
+              "line_end": 833,
+              "metric_value": 804
+            },
+            {
+              "entity_name": "packages.app.src.runtime.extension.host.createHost",
+              "file_path": "packages/app/src/runtime/extension/host.tsx",
+              "line_start": 152,
+              "line_end": 916,
+              "metric_value": 764
+            },
+            {
+              "entity_name": "packages.tui.src.ui.dialog-select.DialogSelect",
+              "file_path": "packages/tui/src/ui/dialog-select.tsx",
+              "line_start": 102,
+              "line_end": 848,
+              "metric_value": 746
+            },
+            {
+              "entity_name": "packages.tui.src.component.session-tabs.VerticalSessionTabs",
+              "file_path": "packages/tui/src/component/session-tabs.tsx",
+              "line_start": 544,
+              "line_end": 1286,
+              "metric_value": 742
+            },
+            {
+              "entity_name": "packages.core.src.bus.configured",
+              "file_path": "packages/core/src/bus.ts",
+              "line_start": 182,
+              "line_end": 906,
+              "metric_value": 724
+            },
+            {
+              "entity_name": "packages.app.src.shell.titlebar.titlebar.Titlebar",
+              "file_path": "packages/app/src/shell/titlebar/titlebar.tsx",
+              "line_start": 57,
+              "line_end": 779,
+              "metric_value": 722
+            },
+            {
+              "entity_name": "packages.core.src.bus.configured.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/bus.ts",
+              "line_start": 188,
+              "line_end": 903,
+              "metric_value": 715
+            },
+            {
+              "entity_name": "packages.cli.src.run.noninteractive.runNonInteractivePrompt",
+              "file_path": "packages/cli/src/run/noninteractive.ts",
+              "line_start": 76,
+              "line_end": 789,
+              "metric_value": 713
+            },
+            {
+              "entity_name": "packages.client.src.solid.data.createData.handleEvent",
+              "file_path": "packages/client/src/solid/data.ts",
+              "line_start": 633,
+              "line_end": 1341,
+              "metric_value": 708
+            },
+            {
+              "entity_name": "packages.server.src.handlers.session.SessionHandler.HttpApiBuilder.group(\"server.session\") callback",
+              "file_path": "packages/server/src/handlers/session.ts",
+              "line_start": 35,
+              "line_end": 714,
+              "metric_value": 679
+            },
+            {
+              "entity_name": "packages.server.src.handlers.session.SessionHandler.HttpApiBuilder.group(\"server.session\") callback.Effect.gen() callback",
+              "file_path": "packages/server/src/handlers/session.ts",
+              "line_start": 36,
+              "line_end": 714,
+              "metric_value": 678
+            },
+            {
+              "entity_name": "packages.desktop.src.main.extension.host.createHost",
+              "file_path": "packages/desktop/src/main/extension/host.ts",
+              "line_start": 108,
+              "line_end": 731,
+              "metric_value": 623
+            },
+            {
+              "entity_name": "packages.tui.src.mini.footer.form.RunFormBody",
+              "file_path": "packages/tui/src/mini/footer.form.tsx",
+              "line_start": 39,
+              "line_end": 646,
+              "metric_value": 607
+            },
+            {
+              "entity_name": "packages.core.src.tool.html-markdown.convertHTMLToMarkdown",
+              "file_path": "packages/core/src/tool/html-markdown.ts",
+              "line_start": 53,
+              "line_end": 658,
+              "metric_value": 605
+            },
+            {
+              "entity_name": "packages.core.src.mcp.index.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/mcp/index.ts",
+              "line_start": 156,
+              "line_end": 753,
+              "metric_value": 597
+            },
+            {
+              "entity_name": "packages.core.src.github-copilot.responses.openai-responses-language-model.OpenAIResponsesLanguageModel.doStream",
+              "file_path": "packages/core/src/github-copilot/responses/openai-responses-language-model.ts",
+              "line_start": 678,
+              "line_end": 1271,
+              "metric_value": 593
+            },
+            {
+              "entity_name": "packages.app.src.shell.titlebar.titlebar.Titlebar.<function>",
+              "file_path": "packages/app/src/shell/titlebar/titlebar.tsx",
+              "line_start": 181,
+              "line_end": 774,
+              "metric_value": 593
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.review.model.createReviewModel",
+              "file_path": "packages/gui-extensions/src/review/model.ts",
+              "line_start": 46,
+              "line_end": 633,
+              "metric_value": 587
+            },
+            {
+              "entity_name": "packages.core.src.integration.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/integration.ts",
+              "line_start": 306,
+              "line_end": 879,
+              "metric_value": 573
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.browser.pane.createBrowserPane",
+              "file_path": "packages/gui-extensions/src/browser/pane.ts",
+              "line_start": 44,
+              "line_end": 594,
+              "metric_value": 550
+            },
+            {
+              "entity_name": "packages.core.src.plugin.host.make.<function>",
+              "file_path": "packages/core/src/plugin/host.ts",
+              "line_start": 47,
+              "line_end": 592,
+              "metric_value": 545
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.debug.bar.DebugBar",
+              "file_path": "packages/gui-extensions/src/debug/bar.tsx",
+              "line_start": 194,
+              "line_end": 736,
+              "metric_value": 542
+            },
+            {
+              "entity_name": "packages.app.src.runtime.extension.host-apis.createExtensionAttachment",
+              "file_path": "packages/app/src/runtime/extension/host-apis.tsx",
+              "line_start": 362,
+              "line_end": 900,
+              "metric_value": 538
+            },
+            {
+              "entity_name": "packages.tui.src.app.App.appCommands.createMemo() callback",
+              "file_path": "packages/tui/src/app.tsx",
+              "line_start": 718,
+              "line_end": 1256,
+              "metric_value": 538
+            },
+            {
+              "entity_name": "packages.app.src.session.screen.SessionScreenContent",
+              "file_path": "packages/app/src/session/screen.tsx",
+              "line_start": 58,
+              "line_end": 594,
+              "metric_value": 536
+            },
+            {
+              "entity_name": "packages.tui.src.plugin.context.PluginProvider",
+              "file_path": "packages/tui/src/plugin/context.tsx",
+              "line_start": 88,
+              "line_end": 620,
+              "metric_value": 532
+            },
+            {
+              "entity_name": "packages.simulation.src.backend.simulated-provider.makeToolDriver.<function>",
+              "file_path": "packages/simulation/src/backend/simulated-provider.ts",
+              "line_start": 367,
+              "line_end": 888,
+              "metric_value": 521
+            },
+            {
+              "entity_name": "packages.tui.src.component.session-tabs.HorizontalSessionTabs",
+              "file_path": "packages/tui/src/component/session-tabs.tsx",
+              "line_start": 1288,
+              "line_end": 1803,
+              "metric_value": 515
+            },
+            {
+              "entity_name": "packages.console.app.src.routes.legal.terms-of-service.index.TermsOfService",
+              "file_path": "packages/console/app/src/routes/legal/terms-of-service/index.tsx",
+              "line_start": 10,
+              "line_end": 523,
+              "metric_value": 513
+            },
+            {
+              "entity_name": "packages.tui.src.feature-plugins.system.storybook.session-tabs.SessionTabsStory",
+              "file_path": "packages/tui/src/feature-plugins/system/storybook/session-tabs.tsx",
+              "line_start": 66,
+              "line_end": 565,
+              "metric_value": 499
+            },
+            {
+              "entity_name": "packages.app.src.session.timeline.message-timeline.MessageTimelineView",
+              "file_path": "packages/app/src/session/timeline/message-timeline.tsx",
+              "line_start": 118,
+              "line_end": 616,
+              "metric_value": 498
+            },
+            {
+              "entity_name": "packages.app.src.providers.connect.controller.createProviderConnectionController",
+              "file_path": "packages/app/src/providers/connect/controller.ts",
+              "line_start": 59,
+              "line_end": 551,
+              "metric_value": 492
+            },
+            {
+              "entity_name": "packages.app.src.composer.editor.interaction.createComposerEditor",
+              "file_path": "packages/app/src/composer/editor/interaction.ts",
+              "line_start": 59,
+              "line_end": 550,
+              "metric_value": 491
+            },
+            {
+              "entity_name": "packages.core.src.session.compaction.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/session/compaction.ts",
+              "line_start": 186,
+              "line_end": 674,
+              "metric_value": 488
+            },
+            {
+              "entity_name": "packages.core.src.shell.scan.scanPowerShellList",
+              "file_path": "packages/core/src/shell/scan.ts",
+              "line_start": 1740,
+              "line_end": 2226,
+              "metric_value": 486
+            },
+            {
+              "entity_name": "packages.cli.src.services.updater.make.Effect.gen() callback",
+              "file_path": "packages/cli/src/services/updater.ts",
+              "line_start": 139,
+              "line_end": 623,
+              "metric_value": 484
+            },
+            {
+              "entity_name": "packages.ui.src.theme.resolve.resolveThemeVariant",
+              "file_path": "packages/ui/src/theme/resolve.ts",
+              "line_start": 4,
+              "line_end": 482,
+              "metric_value": 478
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.browser.model.createModel",
+              "file_path": "packages/gui-extensions/src/browser/model.ts",
+              "line_start": 73,
+              "line_end": 545,
+              "metric_value": 472
+            },
+            {
+              "entity_name": "packages.web.src.components.Share.Share",
+              "file_path": "packages/web/src/components/Share.tsx",
+              "line_start": 41,
+              "line_end": 501,
+              "metric_value": 460
+            },
+            {
+              "entity_name": "packages.core.src.session.message-updater.update",
+              "file_path": "packages/core/src/session/message-updater.ts",
+              "line_start": 31,
+              "line_end": 486,
+              "metric_value": 455
+            },
+            {
+              "entity_name": "packages.tui.src.component.dialog-open.DialogOpen",
+              "file_path": "packages/tui/src/component/dialog-open.tsx",
+              "line_start": 38,
+              "line_end": 485,
+              "metric_value": 447
+            },
+            {
+              "entity_name": "packages.util.src.cross-spawn-spawner.makeCrossSpawnSpawner.Effect.gen() callback",
+              "file_path": "packages/util/src/cross-spawn-spawner.ts",
+              "line_start": 100,
+              "line_end": 547,
+              "metric_value": 447
+            },
+            {
+              "entity_name": "packages.core.src.github-copilot.responses.openai-responses-language-model.OpenAIResponsesLanguageModel.doStream.stream.transform",
+              "file_path": "packages/core/src/github-copilot/responses/openai-responses-language-model.ts",
+              "line_start": 763,
+              "line_end": 1206,
+              "metric_value": 443
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.browser.panel.fixture.mountBrowserPane",
+              "file_path": "packages/gui-extensions/src/browser/panel.fixture.tsx",
+              "line_start": 111,
+              "line_end": 553,
+              "metric_value": 442
+            },
+            {
+              "entity_name": "packages.session-ui.src.pierre.file-find.createFileFind",
+              "file_path": "packages/session-ui/src/pierre/file-find.ts",
+              "line_start": 127,
+              "line_end": 561,
+              "metric_value": 434
+            },
+            {
+              "entity_name": "packages.core.src.session.model-transport.makeLayer.Effect.gen() callback",
+              "file_path": "packages/core/src/session/model-transport.ts",
+              "line_start": 130,
+              "line_end": 559,
+              "metric_value": 429
+            },
+            {
+              "entity_name": "packages.app.src.composer.model.createComposerModel",
+              "file_path": "packages/app/src/composer/model.ts",
+              "line_start": 40,
+              "line_end": 468,
+              "metric_value": 428
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.browser.panel.fixture.mountBrowserPane.Fixture",
+              "file_path": "packages/gui-extensions/src/browser/panel.fixture.tsx",
+              "line_start": 117,
+              "line_end": 541,
+              "metric_value": 424
+            },
+            {
+              "entity_name": "packages.console.app.src.routes.download.index.Download",
+              "file_path": "packages/console/app/src/routes/download/index.tsx",
+              "line_start": 28,
+              "line_end": 449,
+              "metric_value": 421
+            },
+            {
+              "entity_name": "packages.tui.src.mini.footer.permission.RunPermissionBody",
+              "file_path": "packages/tui/src/mini/footer.permission.tsx",
+              "line_start": 142,
+              "line_end": 561,
+              "metric_value": 419
+            },
+            {
+              "entity_name": "packages.tui.src.component.devtools-bar.DevToolsBar",
+              "file_path": "packages/tui/src/component/devtools-bar.tsx",
+              "line_start": 29,
+              "line_end": 443,
+              "metric_value": 414
+            },
+            {
+              "entity_name": "packages.core.src.github-copilot.chat.openai-compatible-chat-language-model.OpenAICompatibleChatLanguageModel.doStream",
+              "file_path": "packages/core/src/github-copilot/chat/openai-compatible-chat-language-model.ts",
+              "line_start": 305,
+              "line_end": 717,
+              "metric_value": 412
+            },
+            {
+              "entity_name": "packages.core.src.plugin.provider.azure.make",
+              "file_path": "packages/core/src/plugin/provider/azure.ts",
+              "line_start": 56,
+              "line_end": 466,
+              "metric_value": 410
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.browser.chromium.createBrowserPage.execute",
+              "file_path": "packages/gui-extensions/src/browser/chromium.ts",
+              "line_start": 687,
+              "line_end": 1093,
+              "metric_value": 406
+            },
+            {
+              "entity_name": "packages.plugin.src.promise.adapter.fromPromise",
+              "file_path": "packages/plugin/src/promise/adapter.ts",
+              "line_start": 218,
+              "line_end": 624,
+              "metric_value": 406
+            },
+            {
+              "entity_name": "packages.plugin.src.promise.adapter.fromPromise.effect",
+              "file_path": "packages/plugin/src/promise/adapter.ts",
+              "line_start": 221,
+              "line_end": 622,
+              "metric_value": 401
+            },
+            {
+              "entity_name": "packages.core.src.plugin.provider.azure.make.effect.Effect.fn() callback",
+              "file_path": "packages/core/src/plugin/provider/azure.ts",
+              "line_start": 64,
+              "line_end": 464,
+              "metric_value": 400
+            },
+            {
+              "entity_name": "packages.tui.src.routes.session.index.Session.baseCommands.createMemo() callback",
+              "file_path": "packages/tui/src/routes/session/index.tsx",
+              "line_start": 908,
+              "line_end": 1308,
+              "metric_value": 400
+            },
+            {
+              "entity_name": "packages.plugin.src.promise.adapter.fromPromise.effect.Effect.gen() callback",
+              "file_path": "packages/plugin/src/promise/adapter.ts",
+              "line_start": 222,
+              "line_end": 622,
+              "metric_value": 400
+            },
+            {
+              "entity_name": "packages.app.src.shell.titlebar.tab-nav.TabNavItem",
+              "file_path": "packages/app/src/shell/titlebar/tab-nav.tsx",
+              "line_start": 24,
+              "line_end": 423,
+              "metric_value": 399
+            },
+            {
+              "entity_name": "packages.app.src.session.timeline.interaction.createSessionTimelineInteraction",
+              "file_path": "packages/app/src/session/timeline/interaction.ts",
+              "line_start": 11,
+              "line_end": 406,
+              "metric_value": 395
+            },
+            {
+              "entity_name": "packages.ui.src.components.scroll-view.ScrollView",
+              "file_path": "packages/ui/src/components/scroll-view.tsx",
+              "line_start": 131,
+              "line_end": 526,
+              "metric_value": 395
+            },
+            {
+              "entity_name": "packages.app.src.runtime.server.global-sync.child-store.createChildStoreManager",
+              "file_path": "packages/app/src/runtime/server/global-sync/child-store.ts",
+              "line_start": 24,
+              "line_end": 413,
+              "metric_value": 389
+            },
+            {
+              "entity_name": "packages.app.src.workspaces.selection.dialog.DirectoryPickerDialog",
+              "file_path": "packages/app/src/workspaces/selection/dialog.tsx",
+              "line_start": 46,
+              "line_end": 433,
+              "metric_value": 387
+            },
+            {
+              "entity_name": "packages.app.src.new-session.workspace.selector.PromptWorkspaceSelector",
+              "file_path": "packages/app/src/new-session/workspace/selector.tsx",
+              "line_start": 10,
+              "line_end": 393,
+              "metric_value": 383
+            },
+            {
+              "entity_name": "packages.session-ui.src.tools.tool-renderer.CurrentContextToolGroup",
+              "file_path": "packages/session-ui/src/tools/tool-renderer.tsx",
+              "line_start": 459,
+              "line_end": 841,
+              "metric_value": 382
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.browser.diagnostics.createDiagnostics",
+              "file_path": "packages/gui-extensions/src/browser/diagnostics.ts",
+              "line_start": 27,
+              "line_end": 408,
+              "metric_value": 381
+            },
+            {
+              "entity_name": "packages.core.src.session.session.make.<function>",
+              "file_path": "packages/core/src/session/session.ts",
+              "line_start": 42,
+              "line_end": 422,
+              "metric_value": 380
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.browser.panel.fixture.mountBrowserRegion",
+              "file_path": "packages/gui-extensions/src/browser/panel.fixture.tsx",
+              "line_start": 619,
+              "line_end": 997,
+              "metric_value": 378
+            },
+            {
+              "entity_name": "packages.console.app.src.component.spotlight.Spotlight",
+              "file_path": "packages/console/app/src/component/spotlight.tsx",
+              "line_start": 447,
+              "line_end": 820,
+              "metric_value": 373
+            },
+            {
+              "entity_name": "packages.tui.src.component.session-frame.SessionFrame",
+              "file_path": "packages/tui/src/component/session-frame.tsx",
+              "line_start": 29,
+              "line_end": 400,
+              "metric_value": 371
+            },
+            {
+              "entity_name": "packages.ui.src.components.list.List",
+              "file_path": "packages/ui/src/components/list.tsx",
+              "line_start": 59,
+              "line_end": 428,
+              "metric_value": 369
+            },
+            {
+              "entity_name": "packages.tui.src.component.dialog-workspaces.DialogWorkspaces",
+              "file_path": "packages/tui/src/component/dialog-workspaces.tsx",
+              "line_start": 39,
+              "line_end": 405,
+              "metric_value": 366
+            },
+            {
+              "entity_name": "packages.core.src.github-copilot.responses.openai-responses-language-model.OpenAIResponsesLanguageModel.doGenerate",
+              "file_path": "packages/core/src/github-copilot/responses/openai-responses-language-model.ts",
+              "line_start": 311,
+              "line_end": 676,
+              "metric_value": 365
+            },
+            {
+              "entity_name": "packages.core.src.session.projector.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/session/projector.ts",
+              "line_start": 444,
+              "line_end": 807,
+              "metric_value": 363
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.browser.panel.fixture.mountBrowserRegion.Fixture",
+              "file_path": "packages/gui-extensions/src/browser/panel.fixture.tsx",
+              "line_start": 625,
+              "line_end": 987,
+              "metric_value": 362
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.ssh.controller.createSshController.<function>",
+              "file_path": "packages/gui-extensions/src/ssh/controller.ts",
+              "line_start": 34,
+              "line_end": 389,
+              "metric_value": 355
+            },
+            {
+              "entity_name": "packages.app.src.home.sessions.controller.createHomeSessionsController",
+              "file_path": "packages/app/src/home/sessions/controller.tsx",
+              "line_start": 44,
+              "line_end": 392,
+              "metric_value": 348
+            },
+            {
+              "entity_name": "packages.cli.src.acp.turn.make.Effect.fnUntraced() callback",
+              "file_path": "packages/cli/src/acp/turn.ts",
+              "line_start": 59,
+              "line_end": 406,
+              "metric_value": 347
+            },
+            {
+              "entity_name": "packages.core.src.session.runner.llm.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/session/runner/llm.ts",
+              "line_start": 43,
+              "line_end": 388,
+              "metric_value": 345
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.terminal.terminal.Terminal.onMount() callback",
+              "file_path": "packages/gui-extensions/src/terminal/terminal.tsx",
+              "line_start": 427,
+              "line_end": 764,
+              "metric_value": 337
+            },
+            {
+              "entity_name": "packages.core.src.project.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/project.ts",
+              "line_start": 109,
+              "line_end": 446,
+              "metric_value": 337
+            },
+            {
+              "entity_name": "packages.app.src.settings.search.SettingsSearch",
+              "file_path": "packages/app/src/settings/search.tsx",
+              "line_start": 19,
+              "line_end": 356,
+              "metric_value": 337
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.file.view.SessionFileView",
+              "file_path": "packages/gui-extensions/src/file/view.tsx",
+              "line_start": 192,
+              "line_end": 528,
+              "metric_value": 336
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.file.tree.FileTree",
+              "file_path": "packages/gui-extensions/src/file/tree.tsx",
+              "line_start": 156,
+              "line_end": 490,
+              "metric_value": 334
+            },
+            {
+              "entity_name": "packages.app.src.session.composer.queue.createSessionQueue",
+              "file_path": "packages/app/src/session/composer/queue.ts",
+              "line_start": 30,
+              "line_end": 359,
+              "metric_value": 329
+            },
+            {
+              "entity_name": "packages.app.src.home.sessions.view.HomeSessionRow",
+              "file_path": "packages/app/src/home/sessions/view.tsx",
+              "line_start": 494,
+              "line_end": 818,
+              "metric_value": 324
+            },
+            {
+              "entity_name": "packages.util.src.npm.layer.Effect.gen() callback",
+              "file_path": "packages/util/src/npm.ts",
+              "line_start": 136,
+              "line_end": 457,
+              "metric_value": 321
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.terminal.panel.TerminalPanel",
+              "file_path": "packages/gui-extensions/src/terminal/panel.tsx",
+              "line_start": 38,
+              "line_end": 358,
+              "metric_value": 320
+            },
+            {
+              "entity_name": "packages.core.src.config.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/config.ts",
+              "line_start": 95,
+              "line_end": 415,
+              "metric_value": 320
+            },
+            {
+              "entity_name": "packages.core.src.plugin.vcs.git.makeGit",
+              "file_path": "packages/core/src/plugin/vcs/git.ts",
+              "line_start": 208,
+              "line_end": 527,
+              "metric_value": 319
+            },
+            {
+              "entity_name": "packages.app.src.composer.editor.editor.ComposerEditor",
+              "file_path": "packages/app/src/composer/editor/editor.tsx",
+              "line_start": 94,
+              "line_end": 412,
+              "metric_value": 318
+            },
+            {
+              "entity_name": "packages.core.src.shell.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/shell.ts",
+              "line_start": 122,
+              "line_end": 438,
+              "metric_value": 316
+            },
+            {
+              "entity_name": "packages.console.app.src.routes.go.index.Home",
+              "file_path": "packages/console/app/src/routes/go/index.tsx",
+              "line_start": 68,
+              "line_end": 382,
+              "metric_value": 314
+            },
+            {
+              "entity_name": "packages.app.src.runtime.server.sync.createServerSyncContextInner",
+              "file_path": "packages/app/src/runtime/server/sync.tsx",
+              "line_start": 50,
+              "line_end": 363,
+              "metric_value": 313
+            },
+            {
+              "entity_name": "packages.session-ui.src.components.file-media.FileMedia",
+              "file_path": "packages/session-ui/src/components/file-media.tsx",
+              "line_start": 34,
+              "line_end": 347,
+              "metric_value": 313
+            },
+            {
+              "entity_name": "packages.console.app.src.routes.zen.index.Home",
+              "file_path": "packages/console/app/src/routes/zen/index.tsx",
+              "line_start": 24,
+              "line_end": 337,
+              "metric_value": 313
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.browser.profiling.createProfiling",
+              "file_path": "packages/gui-extensions/src/browser/profiling.ts",
+              "line_start": 18,
+              "line_end": 329,
+              "metric_value": 311
+            },
+            {
+              "entity_name": "packages.tui.src.component.terminal-pane.TerminalPane",
+              "file_path": "packages/tui/src/component/terminal-pane.tsx",
+              "line_start": 24,
+              "line_end": 332,
+              "metric_value": 308
+            },
+            {
+              "entity_name": "packages.desktop.src.main.extension.lifecycle.createLifecycle",
+              "file_path": "packages/desktop/src/main/extension/lifecycle.ts",
+              "line_start": 55,
+              "line_end": 362,
+              "metric_value": 307
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.wsl.servers.createWslServersController",
+              "file_path": "packages/gui-extensions/src/wsl/servers.ts",
+              "line_start": 38,
+              "line_end": 340,
+              "metric_value": 302
+            },
+            {
+              "entity_name": "packages.app.src.providers.models.select-dialog.ModelSelectorPopoverView",
+              "file_path": "packages/app/src/providers/models/select-dialog.tsx",
+              "line_start": 497,
+              "line_end": 799,
+              "metric_value": 302
+            },
+            {
+              "entity_name": "packages.ui.src.components.thinking-heading.stories.Playground.render",
+              "file_path": "packages/ui/src/components/thinking-heading.stories.tsx",
+              "line_start": 569,
+              "line_end": 870,
+              "metric_value": 301
+            },
+            {
+              "entity_name": "packages.core.src.plugin.provider.opencode.OpencodePlugin.effect.Effect.fn() callback",
+              "file_path": "packages/core/src/plugin/provider/opencode.ts",
+              "line_start": 186,
+              "line_end": 486,
+              "metric_value": 300
+            },
+            {
+              "entity_name": "packages.core.src.job.make.Effect.gen() callback",
+              "file_path": "packages/core/src/job.ts",
+              "line_start": 178,
+              "line_end": 476,
+              "metric_value": 298
+            },
+            {
+              "entity_name": "packages.console.app.src.routes.enterprise.index.Enterprise",
+              "file_path": "packages/console/app/src/routes/enterprise/index.tsx",
+              "line_start": 12,
+              "line_end": 309,
+              "metric_value": 297
+            },
+            {
+              "entity_name": "packages.app.src.session.timeline.controller.createTimelineController",
+              "file_path": "packages/app/src/session/timeline/controller.tsx",
+              "line_start": 59,
+              "line_end": 352,
+              "metric_value": 293
+            },
+            {
+              "entity_name": "packages.console.app.src.component.header.Header",
+              "file_path": "packages/console/app/src/component/header.tsx",
+              "line_start": 38,
+              "line_end": 331,
+              "metric_value": 293
+            },
+            {
+              "entity_name": "packages.core.src.plugin.provider.gitlab.GitLabPlugin.effect.Effect.fn() callback",
+              "file_path": "packages/core/src/plugin/provider/gitlab.ts",
+              "line_start": 55,
+              "line_end": 347,
+              "metric_value": 292
+            },
+            {
+              "entity_name": "packages.session-ui.src.components.session-review.SessionReview.<function>",
+              "file_path": "packages/session-ui/src/components/session-review.tsx",
+              "line_start": 420,
+              "line_end": 712,
+              "metric_value": 292
+            },
+            {
+              "entity_name": "packages.tui.src.component.prompt.index.Prompt.submitInner",
+              "file_path": "packages/tui/src/component/prompt/index.tsx",
+              "line_start": 1109,
+              "line_end": 1395,
+              "metric_value": 286
+            },
+            {
+              "entity_name": "packages.session-ui.src.components.file.DiffViewer",
+              "file_path": "packages/session-ui/src/components/file.tsx",
+              "line_start": 1042,
+              "line_end": 1326,
+              "metric_value": 284
+            },
+            {
+              "entity_name": "packages.app.src.session.header.session-running-menu.SessionRunningMenu",
+              "file_path": "packages/app/src/session/header/session-running-menu.tsx",
+              "line_start": 29,
+              "line_end": 312,
+              "metric_value": 283
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.wsl.runtime.createWslRuntime",
+              "file_path": "packages/gui-extensions/src/wsl/runtime.ts",
+              "line_start": 70,
+              "line_end": 352,
+              "metric_value": 282
+            },
+            {
+              "entity_name": "packages.enterprise.src.routes.share.[shareID].default",
+              "file_path": "packages/enterprise/src/routes/share/[shareID].tsx",
+              "line_start": 79,
+              "line_end": 361,
+              "metric_value": 282
+            },
+            {
+              "entity_name": "packages.console.app.src.routes.brand.index.Brand",
+              "file_path": "packages/console/app/src/routes/brand/index.tsx",
+              "line_start": 34,
+              "line_end": 315,
+              "metric_value": 281
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.terminal.model.createWorkspace",
+              "file_path": "packages/gui-extensions/src/terminal/model.ts",
+              "line_start": 131,
+              "line_end": 410,
+              "metric_value": 279
+            },
+            {
+              "entity_name": "packages.app.src.servers.connect.dialog.createFormController",
+              "file_path": "packages/app/src/servers/connect/dialog.tsx",
+              "line_start": 259,
+              "line_end": 538,
+              "metric_value": 279
+            },
+            {
+              "entity_name": "packages.ui.src.hooks.create-auto-scroll.createAutoScroll",
+              "file_path": "packages/ui/src/hooks/create-auto-scroll.tsx",
+              "line_start": 13,
+              "line_end": 291,
+              "metric_value": 278
+            },
+            {
+              "entity_name": "packages.app.src.runtime.extension.host-apis.createHostApis",
+              "file_path": "packages/app/src/runtime/extension/host-apis.tsx",
+              "line_start": 79,
+              "line_end": 355,
+              "metric_value": 276
+            },
+            {
+              "entity_name": "packages.tui.src.routes.session.rows.createSessionRows",
+              "file_path": "packages/tui/src/routes/session/rows.ts",
+              "line_start": 47,
+              "line_end": 323,
+              "metric_value": 276
+            },
+            {
+              "entity_name": "packages.core.src.database.schema.gen.schema.up",
+              "file_path": "packages/core/src/database/schema.gen.ts",
+              "line_start": 5,
+              "line_end": 280,
+              "metric_value": 275
+            },
+            {
+              "entity_name": "packages.app.src.providers.credentials.dialog.CustomProviderForm",
+              "file_path": "packages/app/src/providers/credentials/dialog.tsx",
+              "line_start": 16,
+              "line_end": 291,
+              "metric_value": 275
+            },
+            {
+              "entity_name": "packages.tui.src.feature-plugins.system.storybook.one-cell-spinner.OneCellSpinnerStory",
+              "file_path": "packages/tui/src/feature-plugins/system/storybook/one-cell-spinner.tsx",
+              "line_start": 13,
+              "line_end": 287,
+              "metric_value": 274
+            },
+            {
+              "entity_name": "packages.tui.src.mini.runtime.queue.runPromptQueue",
+              "file_path": "packages/tui/src/mini/runtime.queue.ts",
+              "line_start": 46,
+              "line_end": 320,
+              "metric_value": 274
+            },
+            {
+              "entity_name": "packages.core.src.database.schema.gen.schema.up.Effect.gen() callback",
+              "file_path": "packages/core/src/database/schema.gen.ts",
+              "line_start": 6,
+              "line_end": 279,
+              "metric_value": 273
+            },
+            {
+              "entity_name": "packages.core.src.persistent-pty.daemon.makeDaemonTransport.<function>",
+              "file_path": "packages/core/src/persistent-pty/daemon.ts",
+              "line_start": 158,
+              "line_end": 431,
+              "metric_value": 273
+            },
+            {
+              "entity_name": "packages.app.src.new-session.project.selector.PromptProjectSelector",
+              "file_path": "packages/app/src/new-session/project/selector.tsx",
+              "line_start": 221,
+              "line_end": 493,
+              "metric_value": 272
+            },
+            {
+              "entity_name": "packages.merman.src.flowchart.routing.avoidNodeObstacles",
+              "file_path": "packages/merman/src/flowchart/routing.ts",
+              "line_start": 875,
+              "line_end": 1146,
+              "metric_value": 271
+            },
+            {
+              "entity_name": "packages.app.src.runtime.extension.side-region.SideRegion",
+              "file_path": "packages/app/src/runtime/extension/side-region.tsx",
+              "line_start": 38,
+              "line_end": 308,
+              "metric_value": 270
+            },
+            {
+              "entity_name": "packages.app.src.runtime.persistence.drafts.createDraftStore",
+              "file_path": "packages/app/src/runtime/persistence/drafts.ts",
+              "line_start": 154,
+              "line_end": 424,
+              "metric_value": 270
+            },
+            {
+              "entity_name": "packages.session-ui.src.components.markdown.Markdown",
+              "file_path": "packages/session-ui/src/components/markdown.tsx",
+              "line_start": 560,
+              "line_end": 830,
+              "metric_value": 270
+            },
+            {
+              "entity_name": "packages.console.app.src.routes.black.BlackLayout",
+              "file_path": "packages/console/app/src/routes/black.tsx",
+              "line_start": 13,
+              "line_end": 283,
+              "metric_value": 270
+            },
+            {
+              "entity_name": "packages.core.src.database.v1-migration.bun.transformSession",
+              "file_path": "packages/core/src/database/v1-migration.bun.ts",
+              "line_start": 222,
+              "line_end": 491,
+              "metric_value": 269
+            },
+            {
+              "entity_name": "packages.core.src.workspace.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/workspace.ts",
+              "line_start": 84,
+              "line_end": 353,
+              "metric_value": 269
+            },
+            {
+              "entity_name": "packages.core.src.session.stats.get.<function>",
+              "file_path": "packages/core/src/session/stats.ts",
+              "line_start": 85,
+              "line_end": 352,
+              "metric_value": 267
+            },
+            {
+              "entity_name": "packages.tui.src.component.dialog-session-list.DialogSessionList",
+              "file_path": "packages/tui/src/component/dialog-session-list.tsx",
+              "line_start": 27,
+              "line_end": 294,
+              "metric_value": 267
+            },
+            {
+              "entity_name": "packages.session-ui.src.components.basic-tool.BasicTool",
+              "file_path": "packages/session-ui/src/components/basic-tool.tsx",
+              "line_start": 111,
+              "line_end": 372,
+              "metric_value": 261
+            },
+            {
+              "entity_name": "packages.session-ui.src.components.file.useFileViewer",
+              "file_path": "packages/session-ui/src/components/file.tsx",
+              "line_start": 160,
+              "line_end": 421,
+              "metric_value": 261
+            },
+            {
+              "entity_name": "packages.stats.app.src.routes.[lab].[model].ModelTrendSection",
+              "file_path": "packages/stats/app/src/routes/[lab]/[model].tsx",
+              "line_start": 625,
+              "line_end": 884,
+              "metric_value": 259
+            },
+            {
+              "entity_name": "packages.core.src.credential.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/credential.ts",
+              "line_start": 67,
+              "line_end": 325,
+              "metric_value": 258
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.browser.pane.createBrowserPane.register",
+              "file_path": "packages/gui-extensions/src/browser/pane.ts",
+              "line_start": 64,
+              "line_end": 318,
+              "metric_value": 254
+            },
+            {
+              "entity_name": "packages.app.src.new-session.workspace.controller.createNewSessionWorkspaceController",
+              "file_path": "packages/app/src/new-session/workspace/controller.ts",
+              "line_start": 51,
+              "line_end": 305,
+              "metric_value": 254
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.ssh.dialog.DialogSsh",
+              "file_path": "packages/gui-extensions/src/ssh/dialog.tsx",
+              "line_start": 15,
+              "line_end": 268,
+              "metric_value": 253
+            },
+            {
+              "entity_name": "packages.core.src.formatter.builtins.make",
+              "file_path": "packages/core/src/formatter/builtins.ts",
+              "line_start": 15,
+              "line_end": 268,
+              "metric_value": 253
+            },
+            {
+              "entity_name": "packages.core.src.github-copilot.responses.convert-to-openai-responses-input.convertToOpenAIResponsesInput",
+              "file_path": "packages/core/src/github-copilot/responses/convert-to-openai-responses-input.ts",
+              "line_start": 15,
+              "line_end": 268,
+              "metric_value": 253
+            },
+            {
+              "entity_name": "packages.app.src.session.composer.region.createActiveSessionRegion",
+              "file_path": "packages/app/src/session/composer/region.tsx",
+              "line_start": 37,
+              "line_end": 288,
+              "metric_value": 251
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.context.tab.SessionContextTab",
+              "file_path": "packages/gui-extensions/src/context/tab.tsx",
+              "line_start": 82,
+              "line_end": 331,
+              "metric_value": 249
+            },
+            {
+              "entity_name": "packages.core.src.github-copilot.chat.openai-compatible-chat-language-model.OpenAICompatibleChatLanguageModel.doStream.stream.transform",
+              "file_path": "packages/core/src/github-copilot/chat/openai-compatible-chat-language-model.ts",
+              "line_start": 386,
+              "line_end": 635,
+              "metric_value": 249
+            },
+            {
+              "entity_name": "packages.app.src.runtime.extension.embeds.EmbedView",
+              "file_path": "packages/app/src/runtime/extension/embeds.tsx",
+              "line_start": 32,
+              "line_end": 281,
+              "metric_value": 249
+            },
+            {
+              "entity_name": "packages.tui.src.feature-plugins.system.plugins.PluginsDialog",
+              "file_path": "packages/tui/src/feature-plugins/system/plugins.tsx",
+              "line_start": 26,
+              "line_end": 275,
+              "metric_value": 249
+            },
+            {
+              "entity_name": "packages.tui.src.ui.dialog-export-options.DialogExportOptions.constructor",
+              "file_path": "packages/tui/src/ui/dialog-export-options.tsx",
+              "line_start": 24,
+              "line_end": 272,
+              "metric_value": 248
+            },
+            {
+              "entity_name": "packages.app.src.shell.notifications.notification.createServerNotificationState",
+              "file_path": "packages/app/src/shell/notifications/notification.tsx",
+              "line_start": 56,
+              "line_end": 303,
+              "metric_value": 247
+            },
+            {
+              "entity_name": "packages.tui.src.app.run.<function>",
+              "file_path": "packages/tui/src/app.tsx",
+              "line_start": 210,
+              "line_end": 457,
+              "metric_value": 247
+            },
+            {
+              "entity_name": "packages.core.src.mcp.client.connect.Effect.fnUntraced() callback",
+              "file_path": "packages/core/src/mcp/client.ts",
+              "line_start": 145,
+              "line_end": 390,
+              "metric_value": 245
+            },
+            {
+              "entity_name": "packages.enterprise.src.routes.share.[shareID].default.<function>",
+              "file_path": "packages/enterprise/src/routes/share/[shareID].tsx",
+              "line_start": 112,
+              "line_end": 357,
+              "metric_value": 245
+            },
+            {
+              "entity_name": "packages.core.src.persistent-pty.index.makeLayer.Effect.gen() callback",
+              "file_path": "packages/core/src/persistent-pty/index.ts",
+              "line_start": 122,
+              "line_end": 366,
+              "metric_value": 244
+            },
+            {
+              "entity_name": "packages.core.src.tool.plugin.subagent.Plugin.effect.<function>",
+              "file_path": "packages/core/src/tool/plugin/subagent.ts",
+              "line_start": 66,
+              "line_end": 310,
+              "metric_value": 244
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.file.tree-v2.FileTreeV2",
+              "file_path": "packages/gui-extensions/src/file/tree-v2.tsx",
+              "line_start": 132,
+              "line_end": 373,
+              "metric_value": 241
+            },
+            {
+              "entity_name": "packages.core.src.tool.plugin.patch.Plugin.effect.<function>",
+              "file_path": "packages/core/src/tool/plugin/patch.ts",
+              "line_start": 69,
+              "line_end": 310,
+              "metric_value": 241
+            },
+            {
+              "entity_name": "packages.web.src.components.share.part.Part",
+              "file_path": "packages/web/src/components/share/part.tsx",
+              "line_start": 43,
+              "line_end": 283,
+              "metric_value": 240
+            },
+            {
+              "entity_name": "packages.tui.src.mini.runtime.lifecycle.createRuntimeLifecycle",
+              "file_path": "packages/tui/src/mini/runtime.lifecycle.ts",
+              "line_start": 152,
+              "line_end": 391,
+              "metric_value": 239
+            },
+            {
+              "entity_name": "packages.server.src.handlers.integration.IntegrationHandler.HttpApiBuilder.group(\"server.integration\") callback",
+              "file_path": "packages/server/src/handlers/integration.ts",
+              "line_start": 27,
+              "line_end": 266,
+              "metric_value": 239
+            },
+            {
+              "entity_name": "packages.core.src.plugin.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/plugin.ts",
+              "line_start": 19,
+              "line_end": 257,
+              "metric_value": 238
+            },
+            {
+              "entity_name": "packages.tui.src.mini.footer.command.RunCommandMenuBody",
+              "file_path": "packages/tui/src/mini/footer.command.tsx",
+              "line_start": 391,
+              "line_end": 629,
+              "metric_value": 238
+            },
+            {
+              "entity_name": "packages.ui.src.data-display.line-comment.line-comment.LineCommentEditor",
+              "file_path": "packages/ui/src/data-display/line-comment/line-comment.tsx",
+              "line_start": 92,
+              "line_end": 330,
+              "metric_value": 238
+            },
+            {
+              "entity_name": "packages.session-ui.src.components.file.TextViewer",
+              "file_path": "packages/session-ui/src/components/file.tsx",
+              "line_start": 798,
+              "line_end": 1036,
+              "metric_value": 238
+            },
+            {
+              "entity_name": "packages.server.src.handlers.integration.IntegrationHandler.HttpApiBuilder.group(\"server.integration\") callback.Effect.gen() callback",
+              "file_path": "packages/server/src/handlers/integration.ts",
+              "line_start": 28,
+              "line_end": 266,
+              "metric_value": 238
+            },
+            {
+              "entity_name": "packages.app.src.servers.connect.screen.ConnectServerScreen",
+              "file_path": "packages/app/src/servers/connect/screen.tsx",
+              "line_start": 20,
+              "line_end": 256,
+              "metric_value": 236
+            },
+            {
+              "entity_name": "packages.ui.src.components.text-reveal.stories.Playground.render",
+              "file_path": "packages/ui/src/components/text-reveal.stories.tsx",
+              "line_start": 90,
+              "line_end": 326,
+              "metric_value": 236
+            },
+            {
+              "entity_name": "packages.tui.src.mini.footer.menu.RunFooterMenu",
+              "file_path": "packages/tui/src/mini/footer.menu.tsx",
+              "line_start": 78,
+              "line_end": 313,
+              "metric_value": 235
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.updater.machine.make.<function>",
+              "file_path": "packages/gui-extensions/src/updater/machine.ts",
+              "line_start": 30,
+              "line_end": 262,
+              "metric_value": 232
+            },
+            {
+              "entity_name": "packages.app.src.providers.connect.dialog.ProviderConnection.AuthFormView",
+              "file_path": "packages/app/src/providers/connect/dialog.tsx",
+              "line_start": 681,
+              "line_end": 913,
+              "metric_value": 232
+            },
+            {
+              "entity_name": "packages.tui.src.context.theme.themeContext.init",
+              "file_path": "packages/tui/src/context/theme.tsx",
+              "line_start": 124,
+              "line_end": 356,
+              "metric_value": 232
+            },
+            {
+              "entity_name": "packages.tui.src.routes.session.composer.subagents-tab.SubagentsTab",
+              "file_path": "packages/tui/src/routes/session/composer/subagents-tab.tsx",
+              "line_start": 25,
+              "line_end": 257,
+              "metric_value": 232
+            },
+            {
+              "entity_name": "packages.core.src.worktree.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/worktree.ts",
+              "line_start": 108,
+              "line_end": 338,
+              "metric_value": 230
+            },
+            {
+              "entity_name": "packages.app.src.composer.attachments.attachments.createComposerAttachments",
+              "file_path": "packages/app/src/composer/attachments/attachments.ts",
+              "line_start": 34,
+              "line_end": 263,
+              "metric_value": 229
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.debug.bar.DebugBar.onMount() callback",
+              "file_path": "packages/gui-extensions/src/debug/bar.tsx",
+              "line_start": 355,
+              "line_end": 583,
+              "metric_value": 228
+            },
+            {
+              "entity_name": "packages.core.src.session.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/session.ts",
+              "line_start": 243,
+              "line_end": 471,
+              "metric_value": 228
+            },
+            {
+              "entity_name": "packages.console.app.src.routes.black.workspace.BlackWorkspace",
+              "file_path": "packages/console/app/src/routes/black/workspace.tsx",
+              "line_start": 12,
+              "line_end": 238,
+              "metric_value": 226
+            },
+            {
+              "entity_name": "packages.tui.src.plugin.api.createPluginContext",
+              "file_path": "packages/tui/src/plugin/api.tsx",
+              "line_start": 91,
+              "line_end": 316,
+              "metric_value": 225
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.browser.connection.createConnection",
+              "file_path": "packages/gui-extensions/src/browser/connection.ts",
+              "line_start": 38,
+              "line_end": 262,
+              "metric_value": 224
+            },
+            {
+              "entity_name": "packages.app.src.session.timeline.search-controller.createTimelineSearchController",
+              "file_path": "packages/app/src/session/timeline/search-controller.ts",
+              "line_start": 89,
+              "line_end": 312,
+              "metric_value": 223
+            },
+            {
+              "entity_name": "packages.session-ui.src.timeline.projection.Timeline.constructSessionMessageRows",
+              "file_path": "packages/session-ui/src/timeline/projection.ts",
+              "line_start": 231,
+              "line_end": 454,
+              "metric_value": 223
+            },
+            {
+              "entity_name": "packages.core.src.session.runner.step.make.Effect.gen() callback",
+              "file_path": "packages/core/src/session/runner/step.ts",
+              "line_start": 67,
+              "line_end": 289,
+              "metric_value": 222
+            },
+            {
+              "entity_name": "packages.core.src.tool.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/tool.ts",
+              "line_start": 69,
+              "line_end": 289,
+              "metric_value": 220
+            },
+            {
+              "entity_name": "packages.tui.src.mini.footer.subagent.RunFooterSubagentBody",
+              "file_path": "packages/tui/src/mini/footer.subagent.tsx",
+              "line_start": 49,
+              "line_end": 269,
+              "metric_value": 220
+            },
+            {
+              "entity_name": "packages.core.src.pty.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/pty.ts",
+              "line_start": 95,
+              "line_end": 314,
+              "metric_value": 219
+            },
+            {
+              "entity_name": "packages.tui.src.component.prompt.index.Prompt.promptCommands.createMemo() callback",
+              "file_path": "packages/tui/src/component/prompt/index.tsx",
+              "line_start": 417,
+              "line_end": 636,
+              "metric_value": 219
+            },
+            {
+              "entity_name": "packages.merman.src.sequence.placement.createSequencePlacementPlan",
+              "file_path": "packages/merman/src/sequence/placement.ts",
+              "line_start": 465,
+              "line_end": 684,
+              "metric_value": 219
+            },
+            {
+              "entity_name": "packages.client.src.solid.connection.createClientConnection",
+              "file_path": "packages/client/src/solid/connection.ts",
+              "line_start": 40,
+              "line_end": 259,
+              "metric_value": 219
+            },
+            {
+              "entity_name": "packages.app.src.runtime.extension.mounted-session.createMountedSession",
+              "file_path": "packages/app/src/runtime/extension/mounted-session.ts",
+              "line_start": 43,
+              "line_end": 261,
+              "metric_value": 218
+            },
+            {
+              "entity_name": "packages.core.src.permission.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/permission.ts",
+              "line_start": 123,
+              "line_end": 340,
+              "metric_value": 217
+            },
+            {
+              "entity_name": "packages.stats.app.src.routes.[lab].index.LabUsageSection",
+              "file_path": "packages/stats/app/src/routes/[lab]/index.tsx",
+              "line_start": 327,
+              "line_end": 543,
+              "metric_value": 216
+            },
+            {
+              "entity_name": "packages.tui.src.routes.session.permission.SessionQuestion",
+              "file_path": "packages/tui/src/routes/session/permission.tsx",
+              "line_start": 407,
+              "line_end": 622,
+              "metric_value": 215
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.wsl.dialog.DialogAddWslServer",
+              "file_path": "packages/gui-extensions/src/wsl/dialog.tsx",
+              "line_start": 35,
+              "line_end": 249,
+              "metric_value": 214
+            },
+            {
+              "entity_name": "packages.core.src.tool.plugin.patch.Plugin.effect.<function>.ctx.tool.transform() callback",
+              "file_path": "packages/core/src/tool/plugin/patch.ts",
+              "line_start": 78,
+              "line_end": 292,
+              "metric_value": 214
+            },
+            {
+              "entity_name": "packages.app.src.shell.titlebar.tab-strip.TitlebarTabStrip",
+              "file_path": "packages/app/src/shell/titlebar/tab-strip.tsx",
+              "line_start": 270,
+              "line_end": 484,
+              "metric_value": 214
+            },
+            {
+              "entity_name": "packages.stats.app.src.component.model-compare-detail.ModelCompareDetailPage",
+              "file_path": "packages/stats/app/src/component/model-compare-detail.tsx",
+              "line_start": 123,
+              "line_end": 337,
+              "metric_value": 214
+            },
+            {
+              "entity_name": "packages.core.src.session.runner.step.make.Effect.gen() callback.attempt.<function>",
+              "file_path": "packages/core/src/session/runner/step.ts",
+              "line_start": 73,
+              "line_end": 286,
+              "metric_value": 213
+            },
+            {
+              "entity_name": "packages.session-ui.src.message.message-content.CurrentUserMessageDisplay",
+              "file_path": "packages/session-ui/src/message/message-content.tsx",
+              "line_start": 259,
+              "line_end": 472,
+              "metric_value": 213
+            },
+            {
+              "entity_name": "packages.core.src.session.model-transport.makeLayer.Effect.gen() callback.start.<function>",
+              "file_path": "packages/core/src/session/model-transport.ts",
+              "line_start": 295,
+              "line_end": 507,
+              "metric_value": 212
+            },
+            {
+              "entity_name": "packages.tui.src.app.run.<function>.result.Effect.gen() callback",
+              "file_path": "packages/tui/src/app.tsx",
+              "line_start": 238,
+              "line_end": 450,
+              "metric_value": 212
+            },
+            {
+              "entity_name": "packages.core.src.plugin.provider.snowflake-cortex.SnowflakeCortexPlugin.effect.Effect.fn() callback",
+              "file_path": "packages/core/src/plugin/provider/snowflake-cortex.ts",
+              "line_start": 39,
+              "line_end": 250,
+              "metric_value": 211
+            },
+            {
+              "entity_name": "packages.app.src.settings.shell.RootSettings",
+              "file_path": "packages/app/src/settings/shell.tsx",
+              "line_start": 226,
+              "line_end": 436,
+              "metric_value": 210
+            },
+            {
+              "entity_name": "packages.tui.src.component.error-component.ErrorComponent",
+              "file_path": "packages/tui/src/component/error-component.tsx",
+              "line_start": 10,
+              "line_end": 219,
+              "metric_value": 209
+            },
+            {
+              "entity_name": "packages.app.src.runtime.persistence.storage.persisted",
+              "file_path": "packages/app/src/runtime/persistence/storage.ts",
+              "line_start": 586,
+              "line_end": 794,
+              "metric_value": 208
+            },
+            {
+              "entity_name": "packages.tui.src.feature-plugins.system.diff-viewer-file-tree.DiffViewerFileTree",
+              "file_path": "packages/tui/src/feature-plugins/system/diff-viewer-file-tree.tsx",
+              "line_start": 29,
+              "line_end": 237,
+              "metric_value": 208
+            },
+            {
+              "entity_name": "packages.core.src.tool.plugin.patch.Plugin.effect.<function>.ctx.tool.transform() callback.execute",
+              "file_path": "packages/core/src/tool/plugin/patch.ts",
+              "line_start": 85,
+              "line_end": 291,
+              "metric_value": 206
+            },
+            {
+              "entity_name": "packages.core.src.config.plugin.instruction.Plugin.effect.Effect.fn() callback",
+              "file_path": "packages/core/src/config/plugin/instruction.ts",
+              "line_start": 22,
+              "line_end": 226,
+              "metric_value": 204
+            },
+            {
+              "entity_name": "packages.stats.app.src.routes.index.TopModelsChart",
+              "file_path": "packages/stats/app/src/routes/index.tsx",
+              "line_start": 447,
+              "line_end": 650,
+              "metric_value": 203
+            },
+            {
+              "entity_name": "packages.util.src.effect-flock.EffectFlock.layer.Effect.gen() callback",
+              "file_path": "packages/util/src/effect-flock.ts",
+              "line_start": 106,
+              "line_end": 309,
+              "metric_value": 203
+            },
+            {
+              "entity_name": "packages.session-ui.src.v2.components.session-review-file-preview-v2.SessionReviewFilePreviewV2",
+              "file_path": "packages/session-ui/src/v2/components/session-review-file-preview-v2.tsx",
+              "line_start": 104,
+              "line_end": 306,
+              "metric_value": 202
+            },
+            {
+              "entity_name": "packages.enterprise.src.routes.share.[shareID].default.<function>.iife() callback",
+              "file_path": "packages/enterprise/src/routes/share/[shareID].tsx",
+              "line_start": 149,
+              "line_end": 351,
+              "metric_value": 202
+            },
+            {
+              "entity_name": "packages.core.src.github-copilot.responses.openai-responses-prepare-tools.prepareResponsesTools",
+              "file_path": "packages/core/src/github-copilot/responses/openai-responses-prepare-tools.ts",
+              "line_start": 36,
+              "line_end": 236,
+              "metric_value": 200
+            },
+            {
+              "entity_name": "packages.core.src.session.model-request.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/session/model-request.ts",
+              "line_start": 232,
+              "line_end": 432,
+              "metric_value": 200
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.ssh.state.createSshController",
+              "file_path": "packages/gui-extensions/src/ssh/state.ts",
+              "line_start": 10,
+              "line_end": 209,
+              "metric_value": 199
+            },
+            {
+              "entity_name": "packages.stats.core.src.domain.geo.GeoStatRepo.layer.Effect.gen() callback",
+              "file_path": "packages/stats/core/src/domain/geo.ts",
+              "line_start": 69,
+              "line_end": 268,
+              "metric_value": 199
+            },
+            {
+              "entity_name": "packages.core.src.tool.html-markdown.convertHTMLToMarkdown.parser.onopentag",
+              "file_path": "packages/core/src/tool/html-markdown.ts",
+              "line_start": 264,
+              "line_end": 462,
+              "metric_value": 198
+            },
+            {
+              "entity_name": "packages.session-ui.src.tools.tool-renderer.CurrentContextToolGroup.<function>",
+              "file_path": "packages/session-ui/src/tools/tool-renderer.tsx",
+              "line_start": 637,
+              "line_end": 835,
+              "metric_value": 198
+            },
+            {
+              "entity_name": "packages.core.src.shell.scan.scanBash",
+              "file_path": "packages/core/src/shell/scan.ts",
+              "line_start": 430,
+              "line_end": 627,
+              "metric_value": 197
+            },
+            {
+              "entity_name": "packages.app.src.settings.timeline-detail.TimelineDetailControl",
+              "file_path": "packages/app/src/settings/timeline-detail.tsx",
+              "line_start": 21,
+              "line_end": 218,
+              "metric_value": 197
+            },
+            {
+              "entity_name": "packages.tui.src.mini.scrollback.writer.RunEntryContent",
+              "file_path": "packages/tui/src/mini/scrollback.writer.tsx",
+              "line_start": 79,
+              "line_end": 276,
+              "metric_value": 197
+            },
+            {
+              "entity_name": "packages.core.src.plugin.provider.github-copilot.GithubCopilotPlugin.effect.Effect.fn() callback",
+              "file_path": "packages/core/src/plugin/provider/github-copilot.ts",
+              "line_start": 161,
+              "line_end": 357,
+              "metric_value": 196
+            },
+            {
+              "entity_name": "packages.core.src.tool.plugin.opencode.Plugin.effect.<function>",
+              "file_path": "packages/core/src/tool/plugin/opencode.ts",
+              "line_start": 89,
+              "line_end": 285,
+              "metric_value": 196
+            },
+            {
+              "entity_name": "packages.ai.src.protocols.bedrock-converse.step.Effect.gen() callback",
+              "file_path": "packages/ai/src/protocols/bedrock-converse.ts",
+              "line_start": 619,
+              "line_end": 815,
+              "metric_value": 196
+            },
+            {
+              "entity_name": "packages.core.src.model.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/model.ts",
+              "line_start": 90,
+              "line_end": 284,
+              "metric_value": 194
+            },
+            {
+              "entity_name": "packages.ui.src.context.dialog.init",
+              "file_path": "packages/ui/src/context/dialog.tsx",
+              "line_start": 44,
+              "line_end": 238,
+              "metric_value": 194
+            },
+            {
+              "entity_name": "packages.merman.src.flowchart.layout.separateTopLevelItems",
+              "file_path": "packages/merman/src/flowchart/layout.ts",
+              "line_start": 837,
+              "line_end": 1031,
+              "metric_value": 194
+            },
+            {
+              "entity_name": "packages.core.src.vcs.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/vcs.ts",
+              "line_start": 60,
+              "line_end": 253,
+              "metric_value": 193
+            },
+            {
+              "entity_name": "packages.server.src.handlers.pty.PtyHandler.HttpApiBuilder.group(\"server.pty\") callback",
+              "file_path": "packages/server/src/handlers/pty.ts",
+              "line_start": 27,
+              "line_end": 220,
+              "metric_value": 193
+            },
+            {
+              "entity_name": "packages.core.src.config.plugin.instruction.Plugin.effect.Effect.fn() callback.Effect.gen() callback",
+              "file_path": "packages/core/src/config/plugin/instruction.ts",
+              "line_start": 26,
+              "line_end": 218,
+              "metric_value": 192
+            },
+            {
+              "entity_name": "packages.merman.src.state.routing.createStateTransitionRoutePlans",
+              "file_path": "packages/merman/src/state/routing.ts",
+              "line_start": 374,
+              "line_end": 566,
+              "metric_value": 192
+            },
+            {
+              "entity_name": "packages.server.src.handlers.persistent-pty.PersistentPtyHandler.HttpApiBuilder.group(\"server.experimental\") callback",
+              "file_path": "packages/server/src/handlers/persistent-pty.ts",
+              "line_start": 17,
+              "line_end": 209,
+              "metric_value": 192
+            },
+            {
+              "entity_name": "packages.server.src.handlers.pty.PtyHandler.HttpApiBuilder.group(\"server.pty\") callback.Effect.gen() callback",
+              "file_path": "packages/server/src/handlers/pty.ts",
+              "line_start": 28,
+              "line_end": 220,
+              "metric_value": 192
+            },
+            {
+              "entity_name": "packages.server.src.handlers.persistent-pty.PersistentPtyHandler.HttpApiBuilder.group(\"server.experimental\") callback.Effect.gen() callback",
+              "file_path": "packages/server/src/handlers/persistent-pty.ts",
+              "line_start": 18,
+              "line_end": 209,
+              "metric_value": 191
+            },
+            {
+              "entity_name": "packages.stats.core.src.domain.model.ModelStatRepo.layer.Effect.gen() callback",
+              "file_path": "packages/stats/core/src/domain/model.ts",
+              "line_start": 62,
+              "line_end": 252,
+              "metric_value": 190
+            },
+            {
+              "entity_name": "packages.httpapi-codegen.src.index.compile",
+              "file_path": "packages/httpapi-codegen/src/index.ts",
+              "line_start": 101,
+              "line_end": 291,
+              "metric_value": 190
+            },
+            {
+              "entity_name": "packages.desktop.scripts.bench-startup.launch",
+              "file_path": "packages/desktop/scripts/bench-startup.ts",
+              "line_start": 349,
+              "line_end": 539,
+              "metric_value": 190
+            },
+            {
+              "entity_name": "packages.app.src.composer.composer.stories.ComposerStory",
+              "file_path": "packages/app/src/composer/composer.stories.tsx",
+              "line_start": 48,
+              "line_end": 237,
+              "metric_value": 189
+            },
+            {
+              "entity_name": "packages.core.src.mcp.oauth.authorize.Effect.gen() callback",
+              "file_path": "packages/core/src/mcp/oauth.ts",
+              "line_start": 336,
+              "line_end": 524,
+              "metric_value": 188
+            },
+            {
+              "entity_name": "packages.session-ui.src.v2.components.session-review-v2.SessionReviewV2",
+              "file_path": "packages/session-ui/src/v2/components/session-review-v2.tsx",
+              "line_start": 155,
+              "line_end": 343,
+              "metric_value": 188
+            },
+            {
+              "entity_name": "packages.core.src.tool.plugin.shell.Plugin.effect.<function>",
+              "file_path": "packages/core/src/tool/plugin/shell.ts",
+              "line_start": 105,
+              "line_end": 292,
+              "metric_value": 187
+            },
+            {
+              "entity_name": "packages.session-ui.src.timeline.session-timeline-row.createSessionTimelineRowRenderer.Notice",
+              "file_path": "packages/session-ui/src/timeline/session-timeline-row.tsx",
+              "line_start": 490,
+              "line_end": 676,
+              "metric_value": 186
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.file.browser.SessionFileBrowserTab",
+              "file_path": "packages/gui-extensions/src/file/browser.tsx",
+              "line_start": 26,
+              "line_end": 210,
+              "metric_value": 184
+            },
+            {
+              "entity_name": "packages.core.src.session.model-request.layer.Effect.gen() callback.prepare.<function>",
+              "file_path": "packages/core/src/session/model-request.ts",
+              "line_start": 236,
+              "line_end": 420,
+              "metric_value": 184
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.pairing.page.PairingPage",
+              "file_path": "packages/gui-extensions/src/pairing/page.tsx",
+              "line_start": 31,
+              "line_end": 212,
+              "metric_value": 181
+            },
+            {
+              "entity_name": "packages.core.src.shell.layer.Effect.gen() callback.create.<function>",
+              "file_path": "packages/core/src/shell.ts",
+              "line_start": 254,
+              "line_end": 435,
+              "metric_value": 181
+            },
+            {
+              "entity_name": "packages.web.src.components.share.content-diff.ContentDiff",
+              "file_path": "packages/web/src/components/share/content-diff.tsx",
+              "line_start": 17,
+              "line_end": 197,
+              "metric_value": 180
+            },
+            {
+              "entity_name": "packages.plugin-browser.src.connection.make.<function>",
+              "file_path": "packages/plugin-browser/src/connection.ts",
+              "line_start": 21,
+              "line_end": 201,
+              "metric_value": 180
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.microsoft-office.spreadsheet.OfficeSpreadsheet",
+              "file_path": "packages/gui-extensions/src/microsoft-office/spreadsheet.tsx",
+              "line_start": 71,
+              "line_end": 250,
+              "metric_value": 179
+            },
+            {
+              "entity_name": "packages.core.src.tool.plugin.opencode.Plugin.effect.<function>.ctx.tool.transform() callback",
+              "file_path": "packages/core/src/tool/plugin/opencode.ts",
+              "line_start": 104,
+              "line_end": 283,
+              "metric_value": 179
+            },
+            {
+              "entity_name": "packages.session-ui.src.components.tool-error-card.ToolErrorCard",
+              "file_path": "packages/session-ui/src/components/tool-error-card.tsx",
+              "line_start": 22,
+              "line_end": 201,
+              "metric_value": 179
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.pairing.page.DialogPairing",
+              "file_path": "packages/gui-extensions/src/pairing/page.tsx",
+              "line_start": 217,
+              "line_end": 395,
+              "metric_value": 178
+            },
+            {
+              "entity_name": "packages.core.src.tool.plugin.patch.Plugin.effect.<function>.ctx.tool.transform() callback.execute.Effect.gen() callback",
+              "file_path": "packages/core/src/tool/plugin/patch.ts",
+              "line_start": 102,
+              "line_end": 280,
+              "metric_value": 178
+            },
+            {
+              "entity_name": "packages.desktop.src.main.extension.embeds.createEmbeds",
+              "file_path": "packages/desktop/src/main/extension/embeds.ts",
+              "line_start": 30,
+              "line_end": 208,
+              "metric_value": 178
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.file.artifact-view.ImageStage",
+              "file_path": "packages/gui-extensions/src/file/artifact-view.tsx",
+              "line_start": 318,
+              "line_end": 495,
+              "metric_value": 177
+            },
+            {
+              "entity_name": "packages.cli.dev.tui.run.<function>",
+              "file_path": "packages/cli/dev/tui.ts",
+              "line_start": 11,
+              "line_end": 188,
+              "metric_value": 177
+            },
+            {
+              "entity_name": "packages.app.src.providers.connect.dialog.ProviderPicker",
+              "file_path": "packages/app/src/providers/connect/dialog.tsx",
+              "line_start": 228,
+              "line_end": 404,
+              "metric_value": 176
+            },
+            {
+              "entity_name": "packages.app.src.new-session.composer-adapter.createNewSessionComposerAdapter",
+              "file_path": "packages/app/src/new-session/composer-adapter.ts",
+              "line_start": 21,
+              "line_end": 196,
+              "metric_value": 175
+            },
+            {
+              "entity_name": "packages.ai.src.protocols.openai-chat.step.Effect.gen() callback",
+              "file_path": "packages/ai/src/protocols/openai-chat.ts",
+              "line_start": 1050,
+              "line_end": 1225,
+              "metric_value": 175
+            },
+            {
+              "entity_name": "packages.core.src.config.normalize.normalize",
+              "file_path": "packages/core/src/config/normalize.ts",
+              "line_start": 57,
+              "line_end": 231,
+              "metric_value": 174
+            },
+            {
+              "entity_name": "packages.app.src.composer.editor.editor.ComposerAttachments",
+              "file_path": "packages/app/src/composer/editor/editor.tsx",
+              "line_start": 579,
+              "line_end": 753,
+              "metric_value": 174
+            },
+            {
+              "entity_name": "packages.core.src.github-copilot.responses.openai-responses-language-model.OpenAIResponsesLanguageModel.getArgs",
+              "file_path": "packages/core/src/github-copilot/responses/openai-responses-language-model.ts",
+              "line_start": 136,
+              "line_end": 309,
+              "metric_value": 173
+            },
+            {
+              "entity_name": "packages.core.src.plugin.provider.google-vertex.GoogleVertexPlugin.effect.Effect.fn() callback",
+              "file_path": "packages/core/src/plugin/provider/google-vertex.ts",
+              "line_start": 54,
+              "line_end": 227,
+              "metric_value": 173
+            },
+            {
+              "entity_name": "packages.cli.src.acp.service.make",
+              "file_path": "packages/cli/src/acp/service.ts",
+              "line_start": 68,
+              "line_end": 241,
+              "metric_value": 173
+            },
+            {
+              "entity_name": "packages.ui.src.navigation.segmented-control.segmented-control.SegmentedControl",
+              "file_path": "packages/ui/src/navigation/segmented-control/segmented-control.tsx",
+              "line_start": 88,
+              "line_end": 260,
+              "metric_value": 172
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.file.list.SessionFileList",
+              "file_path": "packages/gui-extensions/src/file/list.tsx",
+              "line_start": 45,
+              "line_end": 216,
+              "metric_value": 171
+            },
+            {
+              "entity_name": "packages.core.src.config.plugin.skill.Plugin.effect.Effect.fn() callback",
+              "file_path": "packages/core/src/config/plugin/skill.ts",
+              "line_start": 21,
+              "line_end": 192,
+              "metric_value": 171
+            },
+            {
+              "entity_name": "packages.app.src.settings.search-index.settingsSearchIndex",
+              "file_path": "packages/app/src/settings/search-index.ts",
+              "line_start": 20,
+              "line_end": 191,
+              "metric_value": 171
+            },
+            {
+              "entity_name": "packages.session-ui.src.components.file-ssr.DiffSSRViewer",
+              "file_path": "packages/session-ui/src/components/file-ssr.tsx",
+              "line_start": 25,
+              "line_end": 196,
+              "metric_value": 171
+            },
+            {
+              "entity_name": "packages.stats.app.src.routes.index.MarketShare",
+              "file_path": "packages/stats/app/src/routes/index.tsx",
+              "line_start": 1092,
+              "line_end": 1263,
+              "metric_value": 171
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.terminal.tab.SortableTerminalTab",
+              "file_path": "packages/gui-extensions/src/terminal/tab.tsx",
+              "line_start": 13,
+              "line_end": 183,
+              "metric_value": 170
+            },
+            {
+              "entity_name": "packages.desktop.src.main.windows.recovery.makeWindowRecovery.Effect.gen() callback",
+              "file_path": "packages/desktop/src/main/windows/recovery.ts",
+              "line_start": 9,
+              "line_end": 179,
+              "metric_value": 170
+            },
+            {
+              "entity_name": "packages.stats.app.src.routes.[lab].[model].StatsModel",
+              "file_path": "packages/stats/app/src/routes/[lab]/[model].tsx",
+              "line_start": 68,
+              "line_end": 238,
+              "metric_value": 170
+            },
+            {
+              "entity_name": "packages.tui.src.component.prompt.move.usePromptMove",
+              "file_path": "packages/tui/src/component/prompt/move.tsx",
+              "line_start": 12,
+              "line_end": 181,
+              "metric_value": 169
+            },
+            {
+              "entity_name": "packages.core.src.ripgrep.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/ripgrep.ts",
+              "line_start": 104,
+              "line_end": 272,
+              "metric_value": 168
+            },
+            {
+              "entity_name": "packages.app.src.settings.keybinds.keybinds.createKeybindSettingsController",
+              "file_path": "packages/app/src/settings/keybinds/keybinds.tsx",
+              "line_start": 236,
+              "line_end": 403,
+              "metric_value": 167
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.file.artifact-view.ArtifactVideo",
+              "file_path": "packages/gui-extensions/src/file/artifact-view.tsx",
+              "line_start": 497,
+              "line_end": 663,
+              "metric_value": 166
+            },
+            {
+              "entity_name": "packages.core.src.database.v1-migration.bun.run",
+              "file_path": "packages/core/src/database/v1-migration.bun.ts",
+              "line_start": 534,
+              "line_end": 700,
+              "metric_value": 166
+            },
+            {
+              "entity_name": "packages.core.src.tool.plugin.subagent.Plugin.effect.<function>.ctx.tool.transform() callback",
+              "file_path": "packages/core/src/tool/plugin/subagent.ts",
+              "line_start": 101,
+              "line_end": 267,
+              "metric_value": 166
+            },
+            {
+              "entity_name": "packages.app.src.workspaces.files.tree-store.createFileTreeStore",
+              "file_path": "packages/app/src/workspaces/files/tree-store.ts",
+              "line_start": 19,
+              "line_end": 185,
+              "metric_value": 166
+            },
+            {
+              "entity_name": "packages.tui.src.mini.footer.command.RunSettingsBody",
+              "file_path": "packages/tui/src/mini/footer.command.tsx",
+              "line_start": 695,
+              "line_end": 861,
+              "metric_value": 166
+            },
+            {
+              "entity_name": "packages.console.app.src.component.go-plan-chart.GoPlanChart",
+              "file_path": "packages/console/app/src/component/go-plan-chart.tsx",
+              "line_start": 10,
+              "line_end": 176,
+              "metric_value": 166
+            },
+            {
+              "entity_name": "packages.core.src.session.execution.restart.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/session/execution/restart.ts",
+              "line_start": 68,
+              "line_end": 233,
+              "metric_value": 165
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.details.server-panel.McpMenu",
+              "file_path": "packages/gui-extensions/src/details/server-panel.tsx",
+              "line_start": 173,
+              "line_end": 337,
+              "metric_value": 164
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.microsoft-office.presentation.worker.createDeck",
+              "file_path": "packages/gui-extensions/src/microsoft-office/presentation.worker.ts",
+              "line_start": 115,
+              "line_end": 279,
+              "metric_value": 164
+            },
+            {
+              "entity_name": "packages.core.src.bus.configured.layer.Effect.gen() callback.commitDurableEvent",
+              "file_path": "packages/core/src/bus.ts",
+              "line_start": 284,
+              "line_end": 448,
+              "metric_value": 164
+            },
+            {
+              "entity_name": "packages.app.src.home.projects.view.HomeProjectRow",
+              "file_path": "packages/app/src/home/projects/view.tsx",
+              "line_start": 644,
+              "line_end": 808,
+              "metric_value": 164
+            },
+            {
+              "entity_name": "packages.core.src.database.v1-migration.bun.transformSession.projected.messages.flatMap() callback",
+              "file_path": "packages/core/src/database/v1-migration.bun.ts",
+              "line_start": 274,
+              "line_end": 437,
+              "metric_value": 163
+            },
+            {
+              "entity_name": "packages.app.src.home.projects.controller.createHomeProjectsController",
+              "file_path": "packages/app/src/home/projects/controller.tsx",
+              "line_start": 25,
+              "line_end": 188,
+              "metric_value": 163
+            },
+            {
+              "entity_name": "packages.tui.src.routes.session.dialog-execute.DialogExecute",
+              "file_path": "packages/tui/src/routes/session/dialog-execute.tsx",
+              "line_start": 20,
+              "line_end": 183,
+              "metric_value": 163
+            },
+            {
+              "entity_name": "packages.merman.src.flowchart.layout.layoutRankedNodes",
+              "file_path": "packages/merman/src/flowchart/layout.ts",
+              "line_start": 362,
+              "line_end": 525,
+              "metric_value": 163
+            },
+            {
+              "entity_name": "packages.core.src.database.v1-migration.bun.run.Effect.gen() callback",
+              "file_path": "packages/core/src/database/v1-migration.bun.ts",
+              "line_start": 536,
+              "line_end": 698,
+              "metric_value": 162
+            },
+            {
+              "entity_name": "packages.core.src.provider.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/provider.ts",
+              "line_start": 312,
+              "line_end": 474,
+              "metric_value": 162
+            },
+            {
+              "entity_name": "packages.core.src.session.store.layer.Effect.gen() callback",
+              "file_path": "packages/core/src/session/store.ts",
+              "line_start": 91,
+              "line_end": 253,
+              "metric_value": 162
+            },
+            {
+              "entity_name": "packages.app.src.new-session.project.selector.createPromptProjectController",
+              "file_path": "packages/app/src/new-session/project/selector.tsx",
+              "line_start": 55,
+              "line_end": 217,
+              "metric_value": 162
+            },
+            {
+              "entity_name": "packages.app.src.session.session-identity-header.SessionProjectMenu",
+              "file_path": "packages/app/src/session/session-identity-header.tsx",
+              "line_start": 48,
+              "line_end": 210,
+              "metric_value": 162
+            },
+            {
+              "entity_name": "packages.util.src.fs-util.FSUtil.layer.Effect.gen() callback",
+              "file_path": "packages/util/src/fs-util.ts",
+              "line_start": 66,
+              "line_end": 228,
+              "metric_value": 162
+            },
+            {
+              "entity_name": "packages.core.src.database.migration.20260804233008_loose_psylocke.migration.up",
+              "file_path": "packages/core/src/database/migration/20260804233008_loose_psylocke.ts",
+              "line_start": 9,
+              "line_end": 170,
+              "metric_value": 161
+            },
+            {
+              "entity_name": "packages.core.src.tool.plugin.websearch.Plugin.effect.<function>",
+              "file_path": "packages/core/src/tool/plugin/websearch.ts",
+              "line_start": 34,
+              "line_end": 195,
+              "metric_value": 161
+            },
+            {
+              "entity_name": "packages.app.src.composer.submit.createComposerSubmit",
+              "file_path": "packages/app/src/composer/submit.ts",
+              "line_start": 56,
+              "line_end": 217,
+              "metric_value": 161
+            },
+            {
+              "entity_name": "packages.tui.src.component.dialog-model.DialogModel",
+              "file_path": "packages/tui/src/component/dialog-model.tsx",
+              "line_start": 13,
+              "line_end": 174,
+              "metric_value": 161
+            },
+            {
+              "entity_name": "packages.ai.src.protocols.open-responses.lowerMessages.Effect.fnUntraced() callback",
+              "file_path": "packages/ai/src/protocols/open-responses.ts",
+              "line_start": 605,
+              "line_end": 766,
+              "metric_value": 161
+            },
+            {
+              "entity_name": "packages.cli.src.acp.translate.sessionEvent",
+              "file_path": "packages/cli/src/acp/translate.ts",
+              "line_start": 252,
+              "line_end": 412,
+              "metric_value": 160
+            },
+            {
+              "entity_name": "packages.desktop.src.main.windows.recovery.makeWindowRecovery.Effect.gen() callback.wireWindowRecovery",
+              "file_path": "packages/desktop/src/main/windows/recovery.ts",
+              "line_start": 16,
+              "line_end": 176,
+              "metric_value": 160
+            },
+            {
+              "entity_name": "packages.merman.src.state.routing.placeStateTransitionLabels",
+              "file_path": "packages/merman/src/state/routing.ts",
+              "line_start": 1221,
+              "line_end": 1381,
+              "metric_value": 160
+            },
+            {
+              "entity_name": "packages.stats.core.src.stat-sync.syncStats.<function>",
+              "file_path": "packages/stats/core/src/stat-sync.ts",
+              "line_start": 41,
+              "line_end": 201,
+              "metric_value": 160
+            },
+            {
+              "entity_name": "packages.core.src.database.migration.20260804233008_loose_psylocke.migration.up.Effect.gen() callback",
+              "file_path": "packages/core/src/database/migration/20260804233008_loose_psylocke.ts",
+              "line_start": 10,
+              "line_end": 169,
+              "metric_value": 159
+            },
+            {
+              "entity_name": "packages.core.src.github-copilot.chat.convert-to-openai-compatible-chat-messages.convertToOpenAICompatibleChatMessages",
+              "file_path": "packages/core/src/github-copilot/chat/convert-to-openai-compatible-chat-messages.ts",
+              "line_start": 13,
+              "line_end": 172,
+              "metric_value": 159
+            },
+            {
+              "entity_name": "packages.app.src.home.sessions.search.createHomeSessionSearchController",
+              "file_path": "packages/app/src/home/sessions/search.ts",
+              "line_start": 16,
+              "line_end": 175,
+              "metric_value": 159
+            },
+            {
+              "entity_name": "packages.app.src.session.requests.model.createSessionRequestModel",
+              "file_path": "packages/app/src/session/requests/model.ts",
+              "line_start": 15,
+              "line_end": 174,
+              "metric_value": 159
+            },
+            {
+              "entity_name": "packages.tui.src.feature-plugins.system.storybook.session-tabs.SessionTabsStory.props.context.keymap.layer() callback",
+              "file_path": "packages/tui/src/feature-plugins/system/storybook/session-tabs.tsx",
+              "line_start": 330,
+              "line_end": 489,
+              "metric_value": 159
+            },
+            {
+              "entity_name": "packages.ui.src.styles.blue-tokens.stories.BlueReview",
+              "file_path": "packages/ui/src/styles/blue-tokens.stories.tsx",
+              "line_start": 38,
+              "line_end": 197,
+              "metric_value": 159
+            },
+            {
+              "entity_name": "packages.console.app.src.routes.temp.Home",
+              "file_path": "packages/console/app/src/routes/temp.tsx",
+              "line_start": 20,
+              "line_end": 179,
+              "metric_value": 159
+            },
+            {
+              "entity_name": "packages.core.src.tool.plugin.subagent.Plugin.effect.<function>.ctx.tool.transform() callback.execute",
+              "file_path": "packages/core/src/tool/plugin/subagent.ts",
+              "line_start": 108,
+              "line_end": 266,
+              "metric_value": 158
+            },
+            {
+              "entity_name": "packages.tui.src.routes.session.index.ShellDisplay",
+              "file_path": "packages/tui/src/routes/session/index.tsx",
+              "line_start": 2839,
+              "line_end": 2997,
+              "metric_value": 158
+            },
+            {
+              "entity_name": "packages.session-ui.src.timeline.projection.Timeline.constructMessageRows",
+              "file_path": "packages/session-ui/src/timeline/projection.ts",
+              "line_start": 456,
+              "line_end": 614,
+              "metric_value": 158
+            },
+            {
+              "entity_name": "packages.merman.src.sequence.parser.parseMermaidSequenceDiagram",
+              "file_path": "packages/merman/src/sequence/parser.ts",
+              "line_start": 124,
+              "line_end": 282,
+              "metric_value": 158
+            },
+            {
+              "entity_name": "packages.core.src.plugin.provider.chatgpt.ChatGPTPlugin.effect.Effect.fn() callback",
+              "file_path": "packages/core/src/plugin/provider/chatgpt.ts",
+              "line_start": 211,
+              "line_end": 368,
+              "metric_value": 157
+            },
+            {
+              "entity_name": "packages.core.src.session.runner.publish-llm-event.createLLMEventPublisher.publish.Effect.fnUntraced() callback",
+              "file_path": "packages/core/src/session/runner/publish-llm-event.ts",
+              "line_start": 443,
+              "line_end": 600,
+              "metric_value": 157
+            },
+            {
+              "entity_name": "packages.app.src.composer.selection.createComposerModelSelection",
+              "file_path": "packages/app/src/composer/selection.ts",
+              "line_start": 41,
+              "line_end": 198,
+              "metric_value": 157
+            },
+            {
+              "entity_name": "packages.app.src.runtime.extension.ipc.createIpcClients",
+              "file_path": "packages/app/src/runtime/extension/ipc.ts",
+              "line_start": 23,
+              "line_end": 180,
+              "metric_value": 157
+            },
+            {
+              "entity_name": "packages.cli.src.server-process.processEffect.Effect.fnUntraced() callback",
+              "file_path": "packages/cli/src/server-process.ts",
+              "line_start": 47,
+              "line_end": 204,
+              "metric_value": 157
+            },
+            {
+              "entity_name": "packages.core.src.session.projector.run",
+              "file_path": "packages/core/src/session/projector.ts",
+              "line_start": 237,
+              "line_end": 393,
+              "metric_value": 156
+            },
+            {
+              "entity_name": "packages.app.src.home.scroll.createHomeScrollController",
+              "file_path": "packages/app/src/home/scroll.ts",
+              "line_start": 11,
+              "line_end": 166,
+              "metric_value": 155
+            },
+            {
+              "entity_name": "packages.app.src.runtime.extension.panels.DockRegion",
+              "file_path": "packages/app/src/runtime/extension/panels.tsx",
+              "line_start": 387,
+              "line_end": 542,
+              "metric_value": 155
+            },
+            {
+              "entity_name": "packages.console.app.src.component.limits-graph.LimitsGraph",
+              "file_path": "packages/console/app/src/component/limits-graph.tsx",
+              "line_start": 15,
+              "line_end": 170,
+              "metric_value": 155
+            },
+            {
+              "entity_name": "packages.core.src.session.projector.run.Effect.gen() callback",
+              "file_path": "packages/core/src/session/projector.ts",
+              "line_start": 238,
+              "line_end": 392,
+              "metric_value": 154
+            },
+            {
+              "entity_name": "packages.app.src.session.requests.auto-approve.createPermissionAutoApprover",
+              "file_path": "packages/app/src/session/requests/auto-approve.ts",
+              "line_start": 15,
+              "line_end": 169,
+              "metric_value": 154
+            },
+            {
+              "entity_name": "packages.app.src.runtime.extension.panels.createRegion",
+              "file_path": "packages/app/src/runtime/extension/panels.tsx",
+              "line_start": 98,
+              "line_end": 251,
+              "metric_value": 153
+            },
+            {
+              "entity_name": "packages.tui.src.routes.session.permission.PermissionPrompt",
+              "file_path": "packages/tui/src/routes/session/permission.tsx",
+              "line_start": 113,
+              "line_end": 266,
+              "metric_value": 153
+            },
+            {
+              "entity_name": "packages.merman.src.state.layout.createHorizontalLayout",
+              "file_path": "packages/merman/src/state/layout.ts",
+              "line_start": 667,
+              "line_end": 820,
+              "metric_value": 153
+            },
+            {
+              "entity_name": "packages.core.src.bus.configured.layer.Effect.gen() callback.commitDurableEvent.Effect.gen() callback",
+              "file_path": "packages/core/src/bus.ts",
+              "line_start": 295,
+              "line_end": 447,
+              "metric_value": 152
+            },
+            {
+              "entity_name": "packages.tui.src.app.run.<function>.result.Effect.gen() callback.Effect.tryPromise() callback",
+              "file_path": "packages/tui/src/app.tsx",
+              "line_start": 295,
+              "line_end": 447,
+              "metric_value": 152
+            },
+            {
+              "entity_name": "packages.ui.src.forms.select.select.Select",
+              "file_path": "packages/ui/src/forms/select/select.tsx",
+              "line_start": 78,
+              "line_end": 230,
+              "metric_value": 152
+            },
+            {
+              "entity_name": "packages.simulation.src.control-server.start",
+              "file_path": "packages/simulation/src/control-server.ts",
+              "line_start": 25,
+              "line_end": 177,
+              "metric_value": 152
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.browser.pane.createBrowserPane.register.Effect.gen() callback",
+              "file_path": "packages/gui-extensions/src/browser/pane.ts",
+              "line_start": 141,
+              "line_end": 292,
+              "metric_value": 151
+            },
+            {
+              "entity_name": "packages.core.src.mcp.stdio.make.Effect.fnUntraced() callback",
+              "file_path": "packages/core/src/mcp/stdio.ts",
+              "line_start": 45,
+              "line_end": 196,
+              "metric_value": 151
+            },
+            {
+              "entity_name": "packages.core.src.tool.html-markdown.convertHTMLToMarkdown.parser.onclosetag",
+              "file_path": "packages/core/src/tool/html-markdown.ts",
+              "line_start": 471,
+              "line_end": 622,
+              "metric_value": 151
+            },
+            {
+              "entity_name": "packages.app.src.home.sessions.view.HomeSessionSearch",
+              "file_path": "packages/app/src/home/sessions/view.tsx",
+              "line_start": 249,
+              "line_end": 400,
+              "metric_value": 151
+            },
+            {
+              "entity_name": "packages.app.src.runtime.server.global-sync.child-store.ensureChild",
+              "file_path": "packages/app/src/runtime/server/global-sync/child-store.ts",
+              "line_start": 174,
+              "line_end": 325,
+              "metric_value": 151
+            },
+            {
+              "entity_name": "packages.tui.src.component.dialog-update.DialogUpdate",
+              "file_path": "packages/tui/src/component/dialog-update.tsx",
+              "line_start": 10,
+              "line_end": 161,
+              "metric_value": 151
+            },
+            {
+              "entity_name": "packages.tui.src.mini.footer.RunFooter.constructor",
+              "file_path": "packages/tui/src/mini/footer.ts",
+              "line_start": 240,
+              "line_end": 391,
+              "metric_value": 151
+            },
+            {
+              "entity_name": "packages.ui.src.overlays.tooltip.tooltip.Tooltip",
+              "file_path": "packages/ui/src/overlays/tooltip/tooltip.tsx",
+              "line_start": 18,
+              "line_end": 169,
+              "metric_value": 151
+            },
+            {
+              "entity_name": "packages.cli.src.acp.sessions.make.Effect.fnUntraced() callback",
+              "file_path": "packages/cli/src/acp/sessions.ts",
+              "line_start": 42,
+              "line_end": 193,
+              "metric_value": 151
+            },
+            {
+              "entity_name": "packages.stats.app.src.routes.compare-radar.ComparisonRadar",
+              "file_path": "packages/stats/app/src/routes/compare-radar.tsx",
+              "line_start": 38,
+              "line_end": 189,
+              "metric_value": 151
+            },
+            {
+              "entity_name": "packages.gui-extensions.src.ssh.dialog.stories.Fixture",
+              "file_path": "packages/gui-extensions/src/ssh/dialog.stories.tsx",
+              "line_start": 23,
+              "line_end": 173,
+              "metric_value": 150
+            },
+            {
+              "entity_name": "packages.app.src.session.screen-layout.createSessionScreenLayout",
+              "file_path": "packages/app/src/session/screen-layout.ts",
+              "line_start": 11,
+              "line_end": 161,
+              "metric_value": 150
+            },
+            {
+              "entity_name": "packages.tui.src.component.dialog-integration.StringChoiceField",
+              "file_path": "packages/tui/src/component/dialog-integration.tsx",
+              "line_start": 920,
+              "line_end": 1070,
+              "metric_value": 150
+            },
+            {
+              "entity_name": "packages.tui.src.mini.demo.createRunDemo",
+              "file_path": "packages/tui/src/mini/demo.ts",
+              "line_start": 923,
+              "line_end": 1073,
+              "metric_value": 150
+            },
+            {
+              "entity_name": "packages.tui.src.mini.runtime.queue.runPromptQueue.drain.<function>",
+              "file_path": "packages/tui/src/mini/runtime.queue.ts",
+              "line_start": 90,
+              "line_end": 240,
+              "metric_value": 150
+            },
+            {
+              "entity_name": "packages.tui.src.ui.animation.createAnimatable",
+              "file_path": "packages/tui/src/ui/animation.ts",
+              "line_start": 54,
+              "line_end": 204,
+              "metric_value": 150
+            },
+            {
+              "entity_name": "packages.ai.src.route.client.makeFromTransport",
+              "file_path": "packages/ai/src/route/client.ts",
+              "line_start": 357,
+              "line_end": 507,
+              "metric_value": 150
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "check_name": "circular_dependencies",
+      "description": "Detects circular dependencies between packages",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "check_type": "circular_dependencies",
+      "cycles": [
+        "packages.sdk.src.internal -> packages.sdk.src -> packages.sdk.src.internal",
+        "packages.protocol.src -> packages.protocol.src.groups -> packages.protocol.src",
+        "packages.protocol.src -> packages.protocol.src.middleware -> packages.protocol.src",
+        "packages.codemode.src.stdlib -> packages.codemode.src -> packages.codemode.src.interpreter -> packages.codemode.src.stdlib",
+        "packages.codemode.src.stdlib -> packages.codemode.src.interpreter -> packages.codemode.src.stdlib",
+        "packages.codemode.src -> packages.codemode.src.interpreter -> packages.codemode.src",
+        "packages.server.src -> packages.server.src.handlers -> packages.server.src",
+        "packages.server.src -> packages.server.src.middleware -> packages.server.src",
+        "packages.stats.app.src.component -> packages.stats.app.src -> packages.stats.app.src.component",
+        "packages.stats.app.src.component -> packages.stats.app.src -> packages.stats.app.src.lib -> packages.stats.app.src.routes -> packages.stats.app.src.component",
+        "packages.stats.app.src.component -> packages.stats.app.src -> packages.stats.app.src.routes -> packages.stats.app.src.component",
+        "packages.stats.app.src.component -> packages.stats.app.src.lib -> packages.stats.app.src -> packages.stats.app.src.component",
+        "packages.stats.app.src.component -> packages.stats.app.src.lib -> packages.stats.app.src -> packages.stats.app.src.routes -> packages.stats.app.src.component",
+        "packages.stats.app.src.component -> packages.stats.app.src.lib -> packages.stats.app.src.routes -> packages.stats.app.src.component",
+        "packages.stats.app.src.component -> packages.stats.app.src.routes -> packages.stats.app.src.component",
+        "packages.stats.app.src.component -> packages.stats.app.src.routes -> packages.stats.app.src.lib -> packages.stats.app.src -> packages.stats.app.src.component",
+        "packages.stats.app.src.routes -> packages.stats.app.src.lib -> packages.stats.app.src -> packages.stats.app.src.routes",
+        "packages.stats.app.src.routes -> packages.stats.app.src.lib -> packages.stats.app.src.routes",
+        "packages.stats.app.src -> packages.stats.app.src.lib -> packages.stats.app.src",
+        "packages.stats.core.src.domain -> packages.stats.core.src -> packages.stats.core.src.domain",
+        "packages.merman.src.sequence -> packages.merman.src -> packages.merman.src.sequence",
+        "packages.merman.src -> packages.merman.src.flowchart -> packages.merman.src",
+        "packages.merman.src -> packages.merman.src.gantt -> packages.merman.src",
+        "packages.merman.src -> packages.merman.src.gitgraph -> packages.merman.src",
+        "packages.merman.src -> packages.merman.src.state -> packages.merman.src",
+        "packages.merman.src -> packages.merman.src.timeline -> packages.merman.src",
+        "packages.desktop.src.renderer -> packages.desktop.src.renderer.platform -> packages.desktop.src.renderer",
+        "packages.desktop.src.renderer -> packages.desktop.src.renderer.platform -> packages.desktop.src.renderer.window -> packages.desktop.src.renderer",
+        "packages.desktop.src.renderer -> packages.desktop.src.renderer.window -> packages.desktop.src.renderer",
+        "packages.desktop.src.main -> packages.desktop.src.main.extension -> packages.desktop.src.main",
+        "packages.desktop.src.main -> packages.desktop.src.main.extension -> packages.desktop.src.main.lifecycle -> packages.desktop.src.main",
+        "packages.desktop.src.main -> packages.desktop.src.main.extension -> packages.desktop.src.main.lifecycle -> packages.desktop.src.main.native -> packages.desktop.src.main",
+        "packages.desktop.src.main -> packages.desktop.src.main.extension -> packages.desktop.src.main.lifecycle -> packages.desktop.src.main.native -> packages.desktop.src.main.windows -> packages.desktop.src.main",
+        "packages.desktop.src.main -> packages.desktop.src.main.extension -> packages.desktop.src.main.lifecycle -> packages.desktop.src.main.native -> packages.desktop.src.main.windows -> packages.desktop.src.main.service -> packages.desktop.src.main",
+        "packages.desktop.src.main -> packages.desktop.src.main.extension -> packages.desktop.src.main.lifecycle -> packages.desktop.src.main.service -> packages.desktop.src.main",
+        "packages.desktop.src.main -> packages.desktop.src.main.extension -> packages.desktop.src.main.lifecycle -> packages.desktop.src.main.service -> packages.desktop.src.main.storage -> packages.desktop.src.main.windows -> packages.desktop.src.main",
+        "packages.desktop.src.main -> packages.desktop.src.main.extension -> packages.desktop.src.main.lifecycle -> packages.desktop.src.main.service -> packages.desktop.src.main.storage -> packages.desktop.src.main.windows -> packages.desktop.src.main.files -> packages.desktop.src.main.native -> packages.desktop.src.main",
+        "packages.desktop.src.main -> packages.desktop.src.main.extension -> packages.desktop.src.main.lifecycle -> packages.desktop.src.main.service -> packages.desktop.src.main.storage -> packages.desktop.src.main.windows -> packages.desktop.src.main.native -> packages.desktop.src.main",
+        "packages.desktop.src.main -> packages.desktop.src.main.extension -> packages.desktop.src.main.lifecycle -> packages.desktop.src.main.storage -> packages.desktop.src.main.windows -> packages.desktop.src.main",
+        "packages.desktop.src.main -> packages.desktop.src.main.extension -> packages.desktop.src.main.lifecycle -> packages.desktop.src.main.storage -> packages.desktop.src.main.windows -> packages.desktop.src.main.files -> packages.desktop.src.main.native -> packages.desktop.src.main",
+        "packages.desktop.src.main -> packages.desktop.src.main.extension -> packages.desktop.src.main.lifecycle -> packages.desktop.src.main.storage -> packages.desktop.src.main.windows -> packages.desktop.src.main.native -> packages.desktop.src.main",
+        "packages.desktop.src.main -> packages.desktop.src.main.extension -> packages.desktop.src.main.lifecycle -> packages.desktop.src.main.storage -> packages.desktop.src.main.windows -> packages.desktop.src.main.service -> packages.desktop.src.main",
+        "packages.desktop.src.main -> packages.desktop.src.main.extension -> packages.desktop.src.main.lifecycle -> packages.desktop.src.main.windows -> packages.desktop.src.main",
+        "packages.desktop.src.main -> packages.desktop.src.main.extension -> packages.desktop.src.main.lifecycle -> packages.desktop.src.main.windows -> packages.desktop.src.main.files -> packages.desktop.src.main.native -> packages.desktop.src.main",
+        "packages.desktop.src.main -> packages.desktop.src.main.extension -> packages.desktop.src.main.lifecycle -> packages.desktop.src.main.windows -> packages.desktop.src.main.native -> packages.desktop.src.main",
+        "packages.desktop.src.main -> packages.desktop.src.main.extension -> packages.desktop.src.main.lifecycle -> packages.desktop.src.main.windows -> packages.desktop.src.main.service -> packages.desktop.src.main",
+        "packages.desktop.src.main -> packages.desktop.src.main.extension -> packages.desktop.src.main.native -> packages.desktop.src.main",
+        "packages.desktop.src.main -> packages.desktop.src.main.extension -> packages.desktop.src.main.native -> packages.desktop.src.main.windows -> packages.desktop.src.main",
+        "packages.desktop.src.main -> packages.desktop.src.main.extension -> packages.desktop.src.main.native -> packages.desktop.src.main.windows -> packages.desktop.src.main.service -> packages.desktop.src.main",
+        "packages.desktop.src.main -> packages.desktop.src.main.extension -> packages.desktop.src.main.service -> packages.desktop.src.main"
+      ],
+      "packages_checked": 517,
+      "packages_in_cycles": 35
+    },
+    {
+      "check_name": "unused_code_diagnostics",
+      "description": "Detects unused imports, variables, functions, and dead code via LSP diagnostics",
+      "languages": [
+        "javascript",
+        "typescript"
+      ],
+      "check_type": "standard",
+      "total_entities_checked": 19,
+      "findings_count": 19,
+      "warning_count": 0,
+      "score": 0.04999999999999993,
+      "finding_groups": [
+        {
+          "severity": "info",
+          "threshold": 0,
+          "description": "Variables declared but never used",
+          "entities": [
+            {
+              "entity_name": "[unused_variable] 'col' is declared but its value is never read.",
+              "file_path": "packages/gui-extensions/src/terminal/serialize.ts",
+              "line_start": 440,
+              "line_end": 440,
+              "metric_value": 0.0
+            },
+            {
+              "entity_name": "[unused_variable] 'info' is declared but its value is never read.",
+              "file_path": "packages/app/src/runtime/server/sync.tsx",
+              "line_start": 180,
+              "line_end": 180,
+              "metric_value": 0.0
+            },
+            {
+              "entity_name": "[unused_variable] 'root' is declared but its value is never read.",
+              "file_path": "packages/app/src/workspaces/selection/domain.ts",
+              "line_start": 22,
+              "line_end": 22,
+              "metric_value": 0.0
+            },
+            {
+              "entity_name": "[unused_variable] 'input' is declared but its value is never read.",
+              "file_path": "packages/app/src/workspaces/selection/domain.ts",
+              "line_start": 379,
+              "line_end": 379,
+              "metric_value": 0.0
+            },
+            {
+              "entity_name": "[unused_variable] 'info' is declared but its value is never read.",
+              "file_path": "packages/tui/src/component/prompt/index.tsx",
+              "line_start": 1245,
+              "line_end": 1245,
+              "metric_value": 0.0
+            },
+            {
+              "entity_name": "[unused_variable] 'generateOnce' is declared but its value is never read.",
+              "file_path": "packages/ai/example/tutorial.ts",
+              "line_start": 58,
+              "line_end": 58,
+              "metric_value": 0.0
+            },
+            {
+              "entity_name": "[unused_variable] 'streamText' is declared but its value is never read.",
+              "file_path": "packages/ai/example/tutorial.ts",
+              "line_start": 68,
+              "line_end": 68,
+              "metric_value": 0.0
+            },
+            {
+              "entity_name": "[unused_variable] 'generateStructuredObject' is declared but its value is never read.",
+              "file_path": "packages/ai/example/tutorial.ts",
+              "line_start": 130,
+              "line_end": 130,
+              "metric_value": 0.0
+            },
+            {
+              "entity_name": "[unused_variable] 'generateDynamicObject' is declared but its value is never read.",
+              "file_path": "packages/ai/example/tutorial.ts",
+              "line_start": 145,
+              "line_end": 145,
+              "metric_value": 0.0
+            },
+            {
+              "entity_name": "[unused_variable] 'FakeEcho' is declared but its value is never read.",
+              "file_path": "packages/ai/example/tutorial.ts",
+              "line_start": 208,
+              "line_end": 208,
+              "metric_value": 0.0
+            },
+            {
+              "entity_name": "[unused_variable] 'generateImage' is declared but its value is never read.",
+              "file_path": "packages/ai/example/tutorial.ts",
+              "line_start": 219,
+              "line_end": 219,
+              "metric_value": 0.0
+            },
+            {
+              "entity_name": "[unused_variable] 'comment' is declared but its value is never read.",
+              "file_path": "packages/session-ui/src/components/session-review.tsx",
+              "line_start": 516,
+              "line_end": 516,
+              "metric_value": 0.0
+            },
+            {
+              "entity_name": "[unused_variable] 'comment' is declared but its value is never read.",
+              "file_path": "packages/session-ui/src/v2/components/session-review-file-preview-v2.tsx",
+              "line_start": 165,
+              "line_end": 165,
+              "metric_value": 0.0
+            },
+            {
+              "entity_name": "[unused_variable] '_githubData' is declared but its value is never read.",
+              "file_path": "packages/console/app/src/routes/index.tsx",
+              "line_start": 32,
+              "line_end": 32,
+              "metric_value": 0.0
+            },
+            {
+              "entity_name": "[unused_variable] 'hint' is declared but its value is never read.",
+              "file_path": "packages/codemode/src/interpreter/objects.ts",
+              "line_start": 65,
+              "line_end": 65,
+              "metric_value": 0.0
+            },
+            {
+              "entity_name": "[unused_variable] 'builtins' is declared but its value is never read.",
+              "file_path": "packages/codemode/src/interpreter/objects.ts",
+              "line_start": 91,
+              "line_end": 91,
+              "metric_value": 0.0
+            },
+            {
+              "entity_name": "[unused_variable] 'item' is declared but its value is never read.",
+              "file_path": "packages/codemode/src/interpreter/objects.ts",
+              "line_start": 292,
+              "line_end": 292,
+              "metric_value": 0.0
+            }
+          ]
+        },
+        {
+          "severity": "info",
+          "threshold": 0,
+          "description": "Code that cannot be reached during execution",
+          "entities": [
+            {
+              "entity_name": "[unreachable_code] Unreachable code detected.",
+              "file_path": "packages/cli/src/services/service-config.ts",
+              "line_start": 241,
+              "line_end": 241,
+              "metric_value": 0.0
+            },
+            {
+              "entity_name": "[unreachable_code] Unreachable code detected.",
+              "file_path": "packages/latex/src/layout.ts",
+              "line_start": 114,
+              "line_end": 114,
+              "metric_value": 0.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "file_summaries": [
+    {
+      "file_path": "packages/tui/src/app.tsx",
+      "total_findings": 5,
+      "warning_findings": 5,
+      "composite_risk_score": 75.0
+    },
+    {
+      "file_path": "packages/core/src/bus.ts",
+      "total_findings": 4,
+      "warning_findings": 4,
+      "composite_risk_score": 60.0
+    },
+    {
+      "file_path": "packages/core/src/github-copilot/responses/openai-responses-language-model.ts",
+      "total_findings": 4,
+      "warning_findings": 4,
+      "composite_risk_score": 60.0
+    },
+    {
+      "file_path": "packages/gui-extensions/src/browser/panel.fixture.tsx",
+      "total_findings": 4,
+      "warning_findings": 4,
+      "composite_risk_score": 60.0
+    },
+    {
+      "file_path": "packages/core/src/database/v1-migration.bun.ts",
+      "total_findings": 4,
+      "warning_findings": 4,
+      "composite_risk_score": 60.0
+    },
+    {
+      "file_path": "packages/core/src/tool/plugin/patch.ts",
+      "total_findings": 4,
+      "warning_findings": 4,
+      "composite_risk_score": 60.0
+    },
+    {
+      "file_path": "packages/tui/src/component/prompt/index.tsx",
+      "total_findings": 4,
+      "warning_findings": 3,
+      "composite_risk_score": 55.0
+    },
+    {
+      "file_path": "packages/ai/example/tutorial.ts",
+      "total_findings": 6,
+      "warning_findings": 0,
+      "composite_risk_score": 50.0
+    },
+    {
+      "file_path": "packages/tui/src/routes/session/index.tsx",
+      "total_findings": 3,
+      "warning_findings": 3,
+      "composite_risk_score": 45.0
+    },
+    {
+      "file_path": "packages/app/src/providers/connect/dialog.tsx",
+      "total_findings": 3,
+      "warning_findings": 3,
+      "composite_risk_score": 45.0
+    },
+    {
+      "file_path": "packages/core/src/tool/html-markdown.ts",
+      "total_findings": 3,
+      "warning_findings": 3,
+      "composite_risk_score": 45.0
+    },
+    {
+      "file_path": "packages/gui-extensions/src/browser/pane.ts",
+      "total_findings": 3,
+      "warning_findings": 3,
+      "composite_risk_score": 45.0
+    },
+    {
+      "file_path": "packages/plugin/src/promise/adapter.ts",
+      "total_findings": 3,
+      "warning_findings": 3,
+      "composite_risk_score": 45.0
+    },
+    {
+      "file_path": "packages/core/src/session/projector.ts",
+      "total_findings": 3,
+      "warning_findings": 3,
+      "composite_risk_score": 45.0
+    },
+    {
+      "file_path": "packages/session-ui/src/components/file.tsx",
+      "total_findings": 3,
+      "warning_findings": 3,
+      "composite_risk_score": 45.0
+    },
+    {
+      "file_path": "packages/enterprise/src/routes/share/[shareID].tsx",
+      "total_findings": 3,
+      "warning_findings": 3,
+      "composite_risk_score": 45.0
+    },
+    {
+      "file_path": "packages/core/src/tool/plugin/subagent.ts",
+      "total_findings": 3,
+      "warning_findings": 3,
+      "composite_risk_score": 45.0
+    },
+    {
+      "file_path": "packages/client/src/solid/data.ts",
+      "total_findings": 2,
+      "warning_findings": 2,
+      "composite_risk_score": 30.0
+    },
+    {
+      "file_path": "packages/gui-extensions/src/browser/chromium.ts",
+      "total_findings": 2,
+      "warning_findings": 2,
+      "composite_risk_score": 30.0
+    },
+    {
+      "file_path": "packages/session-ui/src/timeline/session-timeline-row.tsx",
+      "total_findings": 2,
+      "warning_findings": 2,
+      "composite_risk_score": 30.0
+    }
+  ]
+}
