@@ -12,6 +12,8 @@ export type PairingCode = { code: string; expires_in: number }
 
 export type PairingSession = { token: string }
 
+export type SessionID = string
+
 export type AbsolutePath = string
 
 export type ProjectID = string
@@ -39,8 +41,6 @@ export type PluginSource =
 export type PluginFeatures = { server?: true; tui?: true; rpc?: true }
 
 export type PluginState = { status: "active" } | { status: "failed"; error: string; ref?: string }
-
-export type SessionID = string
 
 export type SessionMessageID = string
 
@@ -1741,6 +1741,24 @@ export type SessionIdle = {
   data: { sessionID: SessionID }
 }
 
+export type ServerRestartRequested = {
+  id: EventID
+  created: number
+  metadata?: { [x: string]: any }
+  type: "server.restart.requested"
+  location?: LocationRef
+  data: { active: Array<SessionID> }
+}
+
+export type ServerRestartResolved = {
+  id: EventID
+  created: number
+  metadata?: { [x: string]: any }
+  type: "server.restart.resolved"
+  location?: LocationRef
+  data: { decision: "now" | "idle" | "cancel" }
+}
+
 export type TuiPromptAppend = {
   id: EventID
   created: number
@@ -2627,6 +2645,8 @@ export type V2Event =
   | WebsearchUpdated
   | SessionStatusUpdated
   | SessionIdle
+  | ServerRestartRequested
+  | ServerRestartResolved
   | TuiPromptAppend
   | TuiCommandExecute
   | TuiToastShow
@@ -2894,6 +2914,14 @@ export type ServerPairOutput = PairingCode
 export type ServerConnectInput = { readonly code: { readonly code: string }["code"] }
 
 export type ServerConnectOutput = PairingSession
+
+export type ServerRestartRequestOutput = { active: Array<SessionID> }
+
+export type ServerRestartResolveInput = {
+  readonly decision: { readonly decision: "now" | "idle" | "cancel" }["decision"]
+}
+
+export type ServerRestartResolveOutput = { decision: "now" | "idle" | "cancel" }
 
 export type LocationGetInput = {
   readonly location?: { readonly location?: { readonly directory?: string | undefined } | undefined }["location"]
